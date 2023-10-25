@@ -4,6 +4,7 @@ teaching: 10
 exercises: 2
 ---
 
+
 ## Types of multi-dimensional media 
 
 We refer to this media as **multi-dimensional**. 
@@ -239,19 +240,15 @@ as a 3D scanner, or
 - An architectural 3D drawing with measurements for walls and other
 architectural elements.
 
-### Here's an STL 3D render in markdown
-
-```stl
-solid cube_corner
-  facet normal 0.0 -1.0 0.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 1.0 0.0 0.0
-      vertex 0.0 0.0 1.0
-    endloop
-  endfacet
-  ...
-```
+<iframe
+  name="Kleiner Gießlöwe"
+  src="https://kompakkt.de/viewer/index.html?entity=64181f0a07603d5bf4087497&mode=open"
+  allowfullscreen
+  loading="lazy"
+  width="100%"
+  height="500px"></iframe>
+&copy; [Kleiner Gießlöwe, ZEDIKUM - Staatliche Museen zu Berlin - Preußischer Kulturbesitz
+from Kompakkt](https://kompakkt.de/entity/64181f0a07603d5bf4087497)
 
 This type of dataset can also extend into **4-dimensions** by
 also considering time. For instance, data captured
