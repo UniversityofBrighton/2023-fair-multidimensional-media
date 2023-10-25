@@ -239,93 +239,18 @@ as a 3D scanner, or
 - An architectural 3D drawing with measurements for walls and other
 architectural elements.
 
+### Here's an STL 3D render in markdown
+
 ```stl
-solid cube-ascii
-    facet normal  0.000000e+00  0.000000e+00  1.000000e+00
-        outer loop
-            vertex  0.000000e+00  0.000000e+00  1.000000e+01
-            vertex  1.000000e+01  0.000000e+00  1.000000e+01
-            vertex  0.000000e+00  1.000000e+01  1.000000e+01
-        endloop
-    endfacet
-    facet normal  0.000000e+00  0.000000e+00  1.000000e+00
-        outer loop
-            vertex  1.000000e+01  1.000000e+01  1.000000e+01
-            vertex  0.000000e+00  1.000000e+01  1.000000e+01
-            vertex  1.000000e+01  0.000000e+00  1.000000e+01
-        endloop
-    endfacet
-    facet normal  1.000000e+00  0.000000e+00  0.000000e+00
-        outer loop
-            vertex  1.000000e+01  0.000000e+00  1.000000e+01
-            vertex  1.000000e+01  0.000000e+00  0.000000e+00
-            vertex  1.000000e+01  1.000000e+01  1.000000e+01
-        endloop
-    endfacet
-    facet normal  1.000000e+00  0.000000e+00  0.000000e+00
-        outer loop
-            vertex  1.000000e+01  1.000000e+01  0.000000e+00
-            vertex  1.000000e+01  1.000000e+01  1.000000e+01
-            vertex  1.000000e+01  0.000000e+00  0.000000e+00
-        endloop
-    endfacet
-    facet normal  0.000000e+00  0.000000e+00 -1.000000e+00
-        outer loop
-            vertex  1.000000e+01  0.000000e+00  0.000000e+00
-            vertex  0.000000e+00  0.000000e+00  0.000000e+00
-            vertex  1.000000e+01  1.000000e+01  0.000000e+00
-        endloop
-    endfacet
-    facet normal  0.000000e+00  0.000000e+00 -1.000000e+00
-        outer loop
-            vertex  0.000000e+00  1.000000e+01  0.000000e+00
-            vertex  1.000000e+01  1.000000e+01  0.000000e+00
-            vertex  0.000000e+00  0.000000e+00  0.000000e+00
-        endloop
-    endfacet
-    facet normal -1.000000e+00  0.000000e+00  0.000000e+00
-        outer loop
-            vertex  0.000000e+00  0.000000e+00  0.000000e+00
-            vertex  0.000000e+00  0.000000e+00  1.000000e+01
-            vertex  0.000000e+00  1.000000e+01  0.000000e+00
-        endloop
-    endfacet
-    facet normal -1.000000e+00  0.000000e+00  0.000000e+00
-        outer loop
-            vertex  0.000000e+00  1.000000e+01  1.000000e+01
-            vertex  0.000000e+00  1.000000e+01  0.000000e+00
-            vertex  0.000000e+00  0.000000e+00  1.000000e+01
-        endloop
-    endfacet
-    facet normal  0.000000e+00  1.000000e+00  0.000000e+00
-        outer loop
-            vertex  0.000000e+00  1.000000e+01  1.000000e+01
-            vertex  1.000000e+01  1.000000e+01  1.000000e+01
-            vertex  0.000000e+00  1.000000e+01  0.000000e+00
-        endloop
-    endfacet
-    facet normal  0.000000e+00  1.000000e+00  0.000000e+00
-        outer loop
-            vertex  1.000000e+01  1.000000e+01  0.000000e+00
-            vertex  0.000000e+00  1.000000e+01  0.000000e+00
-            vertex  1.000000e+01  1.000000e+01  1.000000e+01
-        endloop
-    endfacet
-    facet normal  0.000000e+00 -1.000000e+00  0.000000e+00
-        outer loop
-            vertex  1.000000e+01  0.000000e+00  1.000000e+01
-            vertex  0.000000e+00  0.000000e+00  1.000000e+01
-            vertex  1.000000e+01  0.000000e+00  0.000000e+00
-        endloop
-    endfacet
-    facet normal  0.000000e+00 -1.000000e+00  0.000000e+00
-        outer loop
-            vertex  0.000000e+00  0.000000e+00  0.000000e+00
-            vertex  1.000000e+01  0.000000e+00  0.000000e+00
-            vertex  0.000000e+00  0.000000e+00  1.000000e+01
-        endloop
-    endfacet
-endsolid
+solid cube_corner
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 1.0 0.0 0.0
+      vertex 0.0 0.0 1.0
+    endloop
+  endfacet
+  ...
 ```
 
 This type of dataset can also extend into **4-dimensions** by
