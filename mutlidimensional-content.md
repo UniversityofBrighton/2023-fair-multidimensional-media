@@ -241,14 +241,13 @@ as a 3D scanner, or
 architectural elements.
 
 <iframe
-  name="Kleiner Gießlöwe"
-  src="https://kompakkt.de/viewer/index.html?entity=64181f0a07603d5bf4087497&mode=open"
+  name="Bamberg, Kaisersaal, 4x8k"
+  src="https://kompakkt.de/viewer/index.html?entity=61f7bce9605228325f63190d&mode=open"
   allowfullscreen
   loading="lazy"
   width="100%"
   height="500px"></iframe>
-&copy; [Kleiner Gießlöwe, ZEDIKUM - Staatliche Museen zu Berlin - Preußischer Kulturbesitz
-from Kompakkt](https://kompakkt.de/entity/64181f0a07603d5bf4087497)
+&copy; [Jan Lutteroth, Corpus der brocken Deckenmalerei, Institut für Kunstgeschichte](https://kompakkt.de/entity/64181f0a07603d5bf4087497)
 
 This type of dataset can also extend into **4-dimensions** by
 also considering time. For instance, data captured
@@ -309,4 +308,8 @@ as with images and video,
 over 100,000 will have a larger size. This has an impact
 on how long it takes to download, load or *render* this content.
  
+
+More information on managing multidimensional data:
+
+- Nasarek, R., & Rossenova, L. (2023). Linked Open Data Management Services: A Comparison (1.0.0) [Data set]. DHd2023 Open Humanities Open Culture (DHd2023), Trier and Luxembourg. Zenodo. [https://doi.org/10.5281/zenodo.7738424](https://doi.org/10.5281/zenodo.7738424)
 
