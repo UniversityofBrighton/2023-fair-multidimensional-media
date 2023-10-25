@@ -66,6 +66,9 @@ authorization to enforce data management rights.
 multidimensional media. 
 - This framework allows for a link to the file, as well as
 (meta)data to be accessible and easily shared.
+- When implemented across many institutions overcomes 
+data silos.
+
 
 For example, through IIIF it is possible to [bring together objects
 which physically might be in different locations]([https://projectmirador.org/embed/?iiif-content=https://iiif.io/api/cookbook/recipe/0036-composition-from-multiple-images/manifest.json]).

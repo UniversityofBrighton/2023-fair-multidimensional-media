@@ -1,13 +1,20 @@
 ---
-title: 'Mutlidimensional Content'
+title: 'Types of Multidimensional Media'
 teaching: 10
 exercises: 2
 ---
 
+**Multidimensional** media is a term which 
+covers various types of non-textual data.
+It is often used to refer to 
+representational and derivative media created through
+digitisation processes or synthetic 
+images produced via software. These processes often result in multi-part,
+multi-format and, often, large 
+project files which describe the creation process. 
 
-## Types of multi-dimensional media 
 
-We refer to this media as **multi-dimensional**. 
+We refer to media as **multi-dimensional**. 
 This is because data experts structure information
 according to the **dimensions** used to store the data
 in the computer system. 
@@ -81,7 +88,6 @@ now support image-based search which allows to search digital-images
 across websites given an input image. See examples:
 
 - [Pixabay](https://pixabay.com/)
-- [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Images)
 - [Adobe Stock](https://stock.adobe.com/)
 - [Shutterstock](https://www.shutterstock.com/)
 - [Flickr](https://www.flickr.com/)
@@ -275,13 +281,16 @@ or connectivity of the 3D model.
 ![3D model showing high, medium and low resolution &copy; vrx123 from AdobeStock](fig/AdobeStock_405814510.jpeg){alt="3D vector data"}
 
 
-### 3D Model Formats
+### 3D Model Platforms
 Popular format platforms include:
 
 - [Sketchfab](https://sketchfab.com/)
 - [Tinkercad](https://www.tinkercad.com/)
 - [MorphoSource](https://www.morphosource.org/)
 - [Kompakkt](https://kompakkt.de/home?locale=en)
+- [Smithsonian 3D](https://3d.si.edu/)
+- [Open Heritage 3D](https://openheritage3d.org/ )
+- [Visual Media Service](https://visual.ariadne-infrastructure.eu/)
 
 As with video, the *viewers* for **3D models* normally allow
 to visualise and interact with the information. But not always
@@ -308,8 +317,59 @@ as with images and video,
 over 100,000 will have a larger size. This has an impact
 on how long it takes to download, load or *render* this content.
  
+## Gathering Multidimensional Files
 
-More information on managing multidimensional data:
+Great variety of multidimensional content is available through
+the various platforms for 
+research, education, entertainment and storytelling among
+other applications. 
 
-- Nasarek, R., & Rossenova, L. (2023). Linked Open Data Management Services: A Comparison (1.0.0) [Data set]. DHd2023 Open Humanities Open Culture (DHd2023), Trier and Luxembourg. Zenodo. [https://doi.org/10.5281/zenodo.7738424](https://doi.org/10.5281/zenodo.7738424)
+Some aggregator websites offer access to a variety of visual 
+content, including:
 
+- [Europeana Platform](https://www.europeana.eu/en)
+- [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Images)
+
+
+Some general advice when looking for content
+for your projects include:
+
+1. **Download the multimedia file** where possible and store locally or on the 
+repository where you are curating the dataset. 
+2. Use the **maximum resolution possible**. It is always possible to reduce the number of pixels, but not to increase them.
+3. **Record basic metadata** about the file,
+including the reference and copyright to the image. 
+If you are doing 
+additional research look at data models, such as [Dublin-CORE cross domain set](https://www.dublincore.org/specifications/dublin-core/cross-domain-attribute/),
+which contains useful information to store, including:
+  - Title
+  - Subject
+  - Description
+  - Date
+  - Resource Type
+  - Format
+  - Resource Identifier
+  - Language 
+  - Rights Management
+
+This will
+become useful information to provide later as part of the data set.
+4. Use a suitable file name to keep easy track of the media and its provenance.
+If the file it is too large, it is possible to resize and save again in 
+medium and low quality.
+
+For example:
+
+```
+		WebsiteFromWhereFileWasDownloaded_ResourceID_[high|medium|low].[format] 
+```
+
+This will become:
+
+```
+    Flick_photo1234_high.png
+    Flick_photo1234_medium.png
+    Flick_photo1234_low.png
+```
+    
+  
