@@ -4,114 +4,99 @@ teaching: 10
 exercises: 2
 ---
 
-:::::::::::::::::::::::::::::::::::::: questions 
+To enable collaboration and open access, 
+it is recommended to manage the multidimensional media in a way
+which is accessible to the team you are working with and with 
+others who might benefit from the 
+effort you have done to curate the data. 
 
-- How do you write a lesson using R Markdown and `{sandpaper}`?
+There are some web-platforms which can easily allow this, such as
+document management and storage system, e.g. [Microsoft Sharepoint](https://microsoft.sharepoint.com), [Google Drive](https://www.google.com)
+and [Dropbox](https://www.dropbox.com/). All of this allow
+for sharing capabilities with people within and beyond your organisations.
 
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::: objectives
-
-- Explain how to use markdown with the new lesson template
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-## Introduction
-
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown][pandoc] for static files (with extension `.md`) and
-[R Markdown][r-markdown] for dynamic files that can render code into output
-(with extension `.Rmd`). Please refer to the [Introduction to The Carpentries
-Workbench][carpentries-workbench] for full documentation.
-
-What you need to know is that there are three sections required for a valid
-Carpentries lesson template:
-
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::: challenge 
-
-## Challenge 1: Can you do it?
-
-What is the output of this command?
-
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
-
-:::::::::::::::::::::::: solution 
-
-## Output
- 
-```output
-[1] "This new lesson looks good"
-```
-
-:::::::::::::::::::::::::::::::::
+Other systems such as Virtual Research Environments are also available for
+sharing data with the same community of practice. For example, those 
+provided by the service [D4Science](https://services.d4science.org/).
 
 
-## Challenge 2: how do you nest solutions within challenge blocks?
+## Making it FAIR
+Emphasis shoudl be placed in following the FAIR principles
+when creating multidimensional data or bringing together
+existing data within a project/initative. FAIR refers to the following 
+actions which should be promoted:
 
-:::::::::::::::::::::::: solution 
+### Findability
 
-You can add a line with at least three colons and a `solution` tag.
+![&copy; ST.art from AdbobeStock](fig/AdobeStock_605423469.jpeg){alt="findable"}
 
-:::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
+>"The first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services...”
+[https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)
 
-## Figures
+- Data should be linked to rich and structured metadata.
 
-You can include figures generated from R Markdown:
+- Where possible this should be made accessible through a searchable 
+resource such as an aggregation platform. 
+
+- Data should be accessible 
+through a persistent identifiers (which do not change over time). For example, [DOIs](https://www.doi.org/the-identifier/what-is-a-doi/) can be assigned to data
+through platforms such as [Zenodo](https://zenodo.org/) 
+or [Github](https://github.com/).
+
+### Accessibility
+
+![&copy; alexdndz from AdobeStock](fig/AdobeStock_408113732.jpeg){alt="access data"}
+
+>The user "need to know how they can be accessed, possibly including authentication and authorisation". [https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)
+
+- Metadata should be accessible via using a *protocol* for web, such as HTTP/HTTPS
+which allows to access a webpage over the browser or query a database through
+a service known as *Application Programming Interface (API)*. 
+
+- Where necessary, the protocol show allow for authentication and 
+authorization to enforce data management rights.
+
+### Interoperability 
+
+![&copy; Molnia from AdobeStock](fig/AdobeStock_301985997.jpeg){alt="interoperable"}
+
+> "The data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing." [https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)
+
+- [IIIF](https://github.com/IIIF/awesome-iiif) (generally pronounced "triple-eye-eff") supports the interoperability of 
+multidimensional media. 
+- This framework allows for a link to the file, as well as
+(meta)data to be accessible and easily shared.
+
+For example, through IIIF it is possible to [bring together objects
+which physically might be in different locations]([https://projectmirador.org/embed/?iiif-content=https://iiif.io/api/cookbook/recipe/0036-composition-from-multiple-images/manifest.json]).
+It does not require a user to download the files but simply to access
+the files and metadata over the web.
 
 
-```r
-pie(
-  c(Sky = 78, "Sunny side of pyramid" = 17, "Shady side of pyramid" = 5), 
-  init.angle = 315, 
-  col = c("deepskyblue", "yellow", "yellow3"), 
-  border = FALSE
-)
-```
+### Reuse of digital asset
 
-<div class="figure" style="text-align: center">
-<img src="fig/making-it-fair-rendered-pyramid-1.png" alt="pie chart illusion of a pyramid"  />
-<p class="caption">Sun arise each and every morning</p>
-</div>
-Or you can use pandoc markdown for static figures with the following syntax:
+![&copy; Olesia Sarycheva from AdbobeStock](fig/AdobeStock_104923735.jpeg){alt="Creative common"}
 
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
+> "...metadata and data should be well-described so that they can be replicated and/or combined in different settings."
+[https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)
 
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
+- Multidimensional data should be 
+released with a clear and accessible data usage license.
 
-## Math
+## CARE data principles
 
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
+In addition, principles known as CARE focus on enhancing these
+principles by leveling power relationships where data is created within
+certain social and historical context. 
 
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
+These principles include:
+Collective Benefit, Authority to Control, Responsibility, and Ethics. 
 
-Cool, right?
 
-::::::::::::::::::::::::::::::::::::: keypoints 
+For more information:
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+- Carroll, S.R., Garba, I., Figueroa-Rodríguez, O.L., Holbrook, J., Lovett, R., Materechera, S., Parsons, M., Raseroka, K., Rodriguez-Lonebear, D., Rowe, R., Sara, R., Walker, J.D., Anderson, J. and Hudson, M., 2020. The CARE Principles for Indigenous Data Governance. Data Science Journal, 19(1), p.43.DOI: [https://doi.org/10.5334/dsj-2020-043](https://doi.org/10.5334/dsj-2020-043)
+- Wilkinson, M., Dumontier, M., Aalbersberg, I. et al.
+The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
 
-::::::::::::::::::::::::::::::::::::::::::::::::
 
