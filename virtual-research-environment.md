@@ -4,10 +4,31 @@ teaching: 10
 exercises: 2
 ---
 
-## D4Science infrastructure 
+To enable collaboration and open access, 
+it is recommended to manage the multidimensional media in a way
+which is accessible to the team you are working with and with 
+others who might benefit from the 
+effort you have done to curate the data. 
 
-Virtual Research Environments make it easy for teams across
+There are some web-platforms which can easily allow this, such as
+document management and storage system, e.g. 
+
+- [Microsoft Sharepoint](https://microsoft.sharepoint.com), 
+- [Google Drive](https://www.google.com), and 
+- [Dropbox](https://www.dropbox.com/). 
+
+All of this allow
+for sharing capabilities with people within and beyond your organisations.
+
+Other systems such as Virtual Research Environments are also available for
+sharing data with the same community of practice. 
+
+
+## Virtual Research Environments (VRE)
+
+VREs make it easy for teams across
 organisations to collaborate in data-driven research process.
+We will use [D4Science](https://services.d4science.org/) in this lesson.
 
 For example, a project that you are developing with friends/colleagues
 might involve investigating how it was living in Brighton 
@@ -70,7 +91,6 @@ See below.
 
 The VRE offers the following capabilities:
 
-
 - **Workspace**: enables members to store and share data securely.
 - **Mailing System and Forum**: enable members to community
 one-to-one or as a community.
@@ -80,7 +100,8 @@ in developing and applying data-algorithms.
 
 To test some of these access in the main interface, the
 menu bar at the top showing the **Workspace** and an **Analytics**
-menu items.
+menu items. Click on any of them to access this
+functionality.
 
 ![](fig/D4Science_maininterface.png){alt="main interfacce of VRE"}
 
@@ -141,22 +162,35 @@ of the group sharing the link to the file you previously uploaded.
 
 ## VRE Analytics
 VREs also provide access to 
-an interactive development environment for notebooks, code, and data.
-This aims to support basic editing of text-data and the implementation of 
+an interactive development environment for *Notebooks*, code, and data.
+For this, the VRE provides access to a [**JupyterLab** enviornment](https://jupyter.org/). It supports over 40 programming languages, 
+including Python, Java, R, Julia, and Scala.
+
+The *Notebooks* environment are increasingly used
+by researchers where they can combine text, 
+mathematics, computations and rich media output. It requires
+of a special language for formatting text known as [markup](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html).
+
+The environment also support basic editing of text-data 
+and the implementation of 
 data processing algorithms using high-performance backend computers.
 
-For this, the VRE provides access to a [**JupyterLab** enviornment](https://jupyter.org/).
+:::::::::: challenge
 
-Jupyter supports over 40 programming languages, 
-including Python, Java, R, Julia, and Scala. 
+Access *JupyterLab* in the *Analytics* menu. Select one of the options for
+accessing a virtual server.
 
+This will create a 'virtual' machine.
 
+You should find a Navigate to the folder where you created by clicking
+on the folder icon on the left menu.
 
+![Workspace folders menu](fig/D4Science_notebook.png){alt="folder"}
 
-Common actions 
+Create a new Text file, by clicking on the **+** icon, and selecting
+Other -> Text File.
 
-Upload
+Change its name and save it.
 
-Common actions - menu
+:::::::
 
-Edit
