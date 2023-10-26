@@ -86,11 +86,11 @@
   FAIR Multidimensional Data
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: 22%" class="percentage">
-    22%
+<aside class="col-md-12 lesson-progress"><div style="width: 18%" class="percentage">
+    18%
   </div>
   <div class="progress incubator">
-    <div class="progress-bar incubator" role="progressbar" style="width: 22%" aria-valuenow="22" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar incubator" role="progressbar" style="width: 18%" aria-valuenow="18" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -179,7 +179,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="making-it-fair.html">3. Making it FAIR</a>
+        <a href="uniform-resource-locators.html">3. Uniform Resource Locators (URLs)</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -188,7 +188,7 @@
 <div class="accordion accordion-flush" id="accordionFlush5">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading5">
-        <a href="virtual-research-environment.html">4. Virtual Research Environment</a>
+        <a href="making-it-fair.html">4. Making it FAIR</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -197,7 +197,16 @@
 <div class="accordion accordion-flush" id="accordionFlush6">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading6">
-        <a href="retrieving-and-curating-multidimensional-data.html">5. Retrieving and Curating Multidimensional Data</a>
+        <a href="virtual-research-environment.html">5. Virtual Research Environment</a>
+    </div><!--/div.accordion-header-->
+        
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush7">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading7">
+        <a href="retrieving-and-curating-multidimensional-data.html">6. Retrieving and Curating Multidimensional Data</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -246,7 +255,7 @@
   <div class="col-xl-8 col-lg-12 primary-content">
     <nav class="lesson-content mx-md-4" aria-label="Previous and Next Chapter"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="introduction.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
-        <a class="chapter-link float-end" href="making-it-fair.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="uniform-resource-locators.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
@@ -254,8 +263,8 @@
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
           Previous: Introduction
         </a>
-        <a class="chapter-link float-end" href="making-it-fair.html" rel="next">
-          Next: Making it FAIR... 
+        <a class="chapter-link float-end" href="uniform-resource-locators.html" rel="next">
+          Next: Uniform Resource... 
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
         </a>
       </div>
@@ -483,9 +492,12 @@ of the vector description.</li>
 </ul><figure><img src="fig/square_raster.svg" style="width:60.0%" alt="square raster format" class="figure mx-auto d-block"></figure><p>Now that we covered these concepts, we return to the definition of
 <strong>3-dimensional</strong> media. A <strong>3-dimensional</strong>
 image or model normally refers to a file(s) with vector data which
-describes spatial information. For example,</p>
+describes spatial information.</p>
+<p>For example, a 3D model might contain information related to:</p>
 <ul><li>Points in space acquired by a sensor device such as a 3D scanner,
 or</li>
+<li>Points calculated by a photogrammetry process, which calculates
+spatial data from images of the same object.</li>
 <li>An architectural 3D drawing with measurements for walls and other
 architectural elements.</li>
 </ul><iframe name="Bamberg, Kaisersaal, 4x8k" src="https://kompakkt.de/viewer/index.html?entity=61f7bce9605228325f63190d&amp;mode=open" allowfullscreen loading="lazy" width="100%" height="500px">
@@ -552,6 +564,15 @@ including:</p>
 <ul><li><a href="https://www.europeana.eu/en" class="external-link">Europeana Platform</a></li>
 <li><a href="https://commons.wikimedia.org/wiki/Category:Images" class="external-link">Wikimedia
 Commons</a></li>
+</ul><p>Other discipline specific or museum sites include:</p>
+<ul><li><a href="https://journalofdigitalhistory.org/" class="external-link">Journal of Digital
+History Journal</a></li>
+<li><a href="https://collections.brightonmuseums.org.uk/" class="external-link">Brighton and
+Hove Museums</a></li>
+<li><a href="https://www.vam.ac.uk/collections?type=featured" class="external-link">Victoria
+and Albert Museum</a></li>
+<li><a href="https://collection.sciencemuseumgroup.org.uk/" class="external-link">Science
+Group Museum</a></li>
 </ul><p>Some general advice when looking for content for your projects
 include:</p>
 <ol style="list-style-type: decimal"><li>
@@ -585,6 +606,36 @@ resize and save again in medium and low quality.</p>
 <pre><code><span>    <span class="va">Flick_photo1234_high.png</span></span>
 <span>    <span class="va">Flick_photo1234_medium.png</span></span>
 <span>    <span class="va">Flick_photo1234_low.png</span></span></code></pre>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Keypoints<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+</h3>
+<div class="callout-content">
+<ul><li><p>Digital Images are organized using pixels, the smallest elements
+of an image, which are arranged across 2 dimensions (x and y
+axis).</p></li>
+<li><p>Image resolution refers to the number of pixels, and it is
+usually given in 2 dimensions (e.g., 800 × 600 pixels).</p></li>
+<li><p>Digital Video is a 2-dimensional or even 3-dimensional type of
+media.</p></li>
+<li><p>Videos consist of multiple frames stored in 2 dimensions (like
+images).</p></li>
+<li><p>Videos also have a resolution and frame rate (Frames Per
+Second).</p></li>
+<li><p>3D Images or Models are files containing vector data describing
+spatial information.</p></li>
+<li><p>Rasterization is the process of converting vector graphics into
+raster images.</p></li>
+<li><p>Various aspects need to be considered when collecting, storing,
+and managing multimedia files effectively.</p></li>
+<li><p>Recording metadata and using appropriate file naming conventions
+is important.</p></li>
+</ul></div>
+</div>
+</div>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
@@ -592,7 +643,7 @@ any links that you are not going to use.
 </section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="introduction.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
-        <a class="chapter-link float-end" href="making-it-fair.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="uniform-resource-locators.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
@@ -600,8 +651,8 @@ any links that you are not going to use.
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
           Previous: Introduction
         </a>
-        <a class="chapter-link float-end" href="making-it-fair.html" rel="next">
-          Next: Making it FAIR... 
+        <a class="chapter-link float-end" href="uniform-resource-locators.html" rel="next">
+          Next: Uniform Resource... 
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
         </a>
       </div>
