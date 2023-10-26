@@ -183,7 +183,7 @@
         
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
-        <ul><li><a href="#d4science-infrastructure">D4Science infrastructure</a></li>
+        <ul><li><a href="#virtual-research-environments-vre">Virtual Research Environments (VRE)</a></li>
 <li><a href="#workspace">Workspace</a></li>
 <li><a href="#vre-analytics">VRE Analytics</a></li>
         </ul></div><!--/div.accordion-body-->
@@ -259,7 +259,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Virtual Research Environment</h1>
-        <p> Last updated on 2023-10-25 | 
+        <p> Last updated on 2023-10-26 | 
         
         <a href="https://github.com/UniversityofBrighton/2023-fair-multidimensional-media/edit/main/episodes/virtual-research-environment.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -273,10 +273,27 @@
 
         
 
-<section id="d4science-infrastructure"><h2 class="section-heading">D4Science infrastructure<a class="anchor" aria-label="anchor" href="#d4science-infrastructure"></a>
+<p>To enable collaboration and open access, it is recommended to manage
+the multidimensional media in a way which is accessible to the team you
+are working with and with others who might benefit from the effort you
+have done to curate the data.</p>
+<p>There are some web-platforms which can easily allow this, such as
+document management and storage system, e.g. </p>
+<ul><li>
+<a href="https://microsoft.sharepoint.com" class="external-link">Microsoft
+Sharepoint</a>,</li>
+<li>
+<a href="https://www.google.com" class="external-link">Google Drive</a>, and</li>
+<li>
+<a href="https://www.dropbox.com/" class="external-link">Dropbox</a>.</li>
+</ul><p>All of this allow for sharing capabilities with people within and
+beyond your organisations.</p>
+<p>Other systems such as Virtual Research Environments are also
+available for sharing data with the same community of practice.</p>
+<section id="virtual-research-environments-vre"><h2 class="section-heading">Virtual Research Environments (VRE)<a class="anchor" aria-label="anchor" href="#virtual-research-environments-vre"></a>
 </h2>
-<hr class="half-width"><p>Virtual Research Environments make it easy for teams across
-organisations to collaborate in data-driven research process.</p>
+<hr class="half-width"><p>VREs make it easy for teams across organisations to collaborate in
+data-driven research process. We will use <a href="https://services.d4science.org/" class="external-link">D4Science</a> in this lesson.</p>
 <p>For example, a project that you are developing with
 friends/colleagues might involve investigating how it was living in
 Brighton in the 18th century. You might be using this to recreate
@@ -325,7 +342,7 @@ if you have any issues accessing the VRE.</p></li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>You will see the main interface upon successful login. See below.</p>
 </div>
@@ -345,7 +362,8 @@ computing facilities to colaborate in developing and applying
 data-algorithms.</li>
 </ul><p>To test some of these access in the main interface, the menu bar at
 the top showing the <strong>Workspace</strong> and an
-<strong>Analytics</strong> menu items.</p>
+<strong>Analytics</strong> menu items. Click on any of them to access
+this functionality.</p>
 <figure><img src="../fig/D4Science_maininterface.png" alt="main interfacce of VRE" class="figure mx-auto d-block"></figure><p>Click on <strong>Workspace</strong>.</p>
 </section><section id="workspace"><h2 class="section-heading">Workspace<a class="anchor" aria-label="anchor" href="#workspace"></a>
 </h2>
@@ -403,17 +421,36 @@ the link to the file you previously uploaded.</p>
 </section><section id="vre-analytics"><h2 class="section-heading">VRE Analytics<a class="anchor" aria-label="anchor" href="#vre-analytics"></a>
 </h2>
 <hr class="half-width"><p>VREs also provide access to an interactive development environment
-for notebooks, code, and data. This aims to support basic editing of
-text-data and the implementation of data processing algorithms using
-high-performance backend computers.</p>
-<p>For this, the VRE provides access to a <a href="https://jupyter.org/" class="external-link"><strong>JupyterLab</strong>
-enviornment</a>.</p>
-<p>Jupyter supports over 40 programming languages, including Python,
-Java, R, Julia, and Scala.</p>
-<p>Common actions</p>
-<p>Upload</p>
-<p>Common actions - menu</p>
-<p>Edit</p>
+for <em>Notebooks</em>, code, and data. For this, the VRE provides
+access to a <a href="https://jupyter.org/" class="external-link"><strong>JupyterLab</strong>
+enviornment</a>. It supports over 40 programming languages, including
+Python, Java, R, Julia, and Scala.</p>
+<p>The <em>Notebooks</em> environment are increasingly used by
+researchers where they can combine text, mathematics, computations and
+rich media output. It requires of a special language for formatting text
+known as <a href="https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html" class="external-link">markup</a>.</p>
+<p>The environment also support basic editing of text-data and the
+implementation of data processing algorithms using high-performance
+backend computers.</p>
+<div id="discussion3" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Challenge<a class="anchor" aria-label="anchor" href="#discussion3"></a>
+</h3>
+<div class="callout-content">
+<p>Access <em>JupyterLab</em> in the <em>Analytics</em> menu. Select one
+of the options for accessing a virtual server.</p>
+<p>This will create a ‘virtual’ machine.</p>
+<p>You should find a Navigate to the folder where you created by
+clicking on the folder icon on the left menu.</p>
+<figure><img src="../fig/D4Science_notebook.png" alt="folder" class="figure mx-auto d-block"><figcaption>Workspace folders menu</figcaption></figure><p>Create a new Text file, by clicking on the <strong>+</strong> icon,
+and selecting Other -&gt; Text File.</p>
+<p>Change its name and save it.</p>
+</div>
+</div>
+</div>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
@@ -477,8 +514,8 @@ any links that you are not going to use.
   "url": "https://UniversityofBrighton.github.io/2023-fair-multidimensional-media/instructor/virtual-research-environment.html",
   "identifier": "https://UniversityofBrighton.github.io/2023-fair-multidimensional-media/instructor/virtual-research-environment.html",
   "dateCreated": "2023-10-20",
-  "dateModified": "2023-10-25",
-  "datePublished": "2023-10-25"
+  "dateModified": "2023-10-26",
+  "datePublished": "2023-10-26"
 }
 
   </script><script>
