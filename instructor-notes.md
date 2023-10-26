@@ -2,4 +2,5 @@
 title: Instructor Notes
 ---
 
-This is a placeholder file. Please add content here.
+The lesson relies mostly on web access, and one excercise where paper and 
+pen is required.

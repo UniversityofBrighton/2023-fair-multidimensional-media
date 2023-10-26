@@ -2,8 +2,13 @@
 site: sandpaper::sandpaper_site
 ---
 
-This is a new lesson built with [The Carpentries Workbench][workbench]. 
+![&Gstudio Templates; from AdobeStock](fig/linked-media.png){alt="logo media"}
 
+Welcome to FAIR multidimensional media.
 
-[workbench]: https://carpentries.github.io/sandpaper-docs
+This lesson offers a starting point to learn more
+about managing media in a way which promotes the FAIR
+principles.
 
+To facilitate learning, it also introduces the concept
+of a Virtual Research Environment.
