@@ -4,7 +4,7 @@ teaching: 10
 exercises: 2
 ---
 
-To enable collaboration and open access, 
+To enable collaboration and open access as well as [open science practices](https://reproducibilitea.org/), 
 it is recommended to manage the multidimensional media in a way
 which is accessible to the team you are working with and with 
 others who might benefit from the 
@@ -193,4 +193,18 @@ Other -> Text File.
 Change its name and save it.
 
 :::::::
+
+
+:::::::::: keypoints
+
+
+- Multidimensional media requires good management, to underpin collaboration and open access/science processes. 
+
+- Virtual Research Environments (VREs) are collaborative spaces 
+for data-driven research. 
+
+- VREs offer workspaces for secure data storage, mailing systems, forums, and data analytics capabilities. 
+
+
+:::::::::: 
 

@@ -7,6 +7,7 @@ exercises: 2
 We will curate a dataset of multidimensional data
 to practice what we learnt.
 
+
 We will make use of the VRE 
 to store, collaborate and provide access to the dataset.
 
@@ -91,4 +92,5 @@ of the files.
 
 **Videos**: 
 [https://www.europeana.eu/en/search?page=1&qf=collection%3Afashion&qf=TYPE%3A%22VIDEO%22&query=&view=grid](https://www.europeana.eu/en/search?page=1&qf=collection%3Afashion&qf=TYPE%3A%22VIDEO%22&query=&view=grid)
- 
+
+

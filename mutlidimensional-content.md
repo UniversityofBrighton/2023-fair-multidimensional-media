@@ -239,10 +239,14 @@ Now that we covered these concepts, we return to the definition of
 **3-dimensional** media. A **3-dimensional** image or model
 normally refers to a file(s) with vector data which describes 
 spatial information.
-For example, 
+
+
+For example, a 3D model might contain information related to:
 
 - Points in space acquired by a sensor device such
 as a 3D scanner, or 
+- Points calculated by a photogrammetry process, which calculates
+spatial data from images of the same object.
 - An architectural 3D drawing with measurements for walls and other
 architectural elements.
 
@@ -330,6 +334,13 @@ content, including:
 - [Europeana Platform](https://www.europeana.eu/en)
 - [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Images)
 
+Other discipline specific or museum sites include:
+
+- [Journal of Digital History Journal](https://journalofdigitalhistory.org/)
+- [Brighton and Hove Museums](https://collections.brightonmuseums.org.uk/)
+- [Victoria and Albert Museum](https://www.vam.ac.uk/collections?type=featured)
+- [Science Group Museum](https://collection.sciencemuseumgroup.org.uk/)
+
 
 Some general advice when looking for content
 for your projects include:
@@ -373,3 +384,25 @@ This will become:
 ```
     
   
+:::::: keypoints
+
+- Digital Images are organized using pixels, the smallest elements of an image, which are arranged across 2 dimensions (x and y axis). 
+
+- Image resolution refers to the number of pixels, and it is usually given in 2 dimensions (e.g., 800 × 600 pixels). 
+
+- Digital Video is a 2-dimensional or even 3-dimensional type of media.
+
+- Videos consist of multiple frames stored in 2 dimensions (like images).
+
+- Videos also have a resolution and frame rate (Frames Per Second).
+
+- 3D Images or Models are files containing vector data describing spatial information. 
+
+- Rasterization is the process of converting vector graphics 
+into raster images.
+
+- Various aspects need to be considered when collecting, storing, and managing multimedia files effectively. 
+
+- Recording metadata and using appropriate file naming conventions
+is important.
+:::::
