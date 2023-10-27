@@ -68,6 +68,9 @@ the one of your institution or your google account.
 ## Geting authorisation: Login to the VRE
 
 
+Link: [https://services.d4science.org/group/d4science-services-gateway/explore](https://services.d4science.org/group/d4science-services-gateway/explore)
+
+
 If you have never logged in before, you will need to follow a few steps:
 
 1. Accept the Terms and Conditions.
