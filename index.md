@@ -2,7 +2,7 @@
 site: sandpaper::sandpaper_site
 ---
 
-![&copy; Gstudio Templates from AdobeStock](episodes/fig/lAdobeStock_270961762.jpeg){alt="logo media"}
+![&copy; Gstudio Templates from AdobeStock](../episodes/fig/lAdobeStock_270961762.jpeg){alt="logo media"}
 
 Welcome to FAIR multidimensional media.
 
