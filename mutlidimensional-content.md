@@ -107,6 +107,7 @@ https://www.europeana.eu/item/794/ark__12148_bpt6k9798997w](fig/Europeana.eu-794
 ### Image Formats
 
 Finally, images are commonly stored using formats such such as:
+
 - *JPEG*, short for Joint Photographic Experts Group, and *PNG*
 *Portable Network Graphics* formats compress
 pixel information making the files size smaller.
