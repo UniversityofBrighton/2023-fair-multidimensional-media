@@ -11,14 +11,19 @@ exercises: 2
 ---
 
 
-## Introduction 
 
 You might already be familiar with websites bringing together a mixture
-of content, such text, images, video or 3D models. Delivering stories over
-the web by using a browser provides many advantages. This includes 
-people being able to easily access the content regardless of which
-platform they are using, such as PCs, mobiles or a VR headsets.
+of content, such text, images, video or 3D models. 
 
+Delivering/retrieving content over the web provides many advantages:
+
+- Being able to easily access the content regardless of which
+platform they are using, such as PCs, mobiles or a VR headsets.
+- Using common Internet interfaces and protocols (e.g. HTTP/HTTPs) 
+to query, retrieve and display content.
+
+
+## Web Basics: Uniform Resource Locator
 In order to understand how to create stories over the web that 
 link multidimensional data, it is first necessary 
 to learn how data, of any type, is made available over the Internet.
@@ -82,8 +87,6 @@ Try searching a word in the [Europeana homepage][Europeana]
 
 For example, search for the word: 'modernism'
 
-
-
 :::::::::::::::::::::::: solution 
 
 You will note that the URL contains the word modernism:
@@ -131,6 +134,34 @@ data which contains various pieces of information about the project.
 
 To understand how to use these URL, you usually need the guide to the API, such as the
 [Gateway to research guide](https://gtr.ukri.org/resources/GtR-2-API-v1.7.5.pdf).
+
+
+## Persistent Identifiers (PIDs)
+
+Although URLs are useful to retrieve a webpage, they are often not permanent. 
+
+URLs might stop working after a project finishes
+or funding ends to maintain a website.
+
+Persistent identifiers (PIDs) address this challenge by ensuring 
+the link to a digital object continue to exist in the long term.
+
+The PID is a unique identifier that represents a something with a number or code.
+
+They are similar to ISBN and ISSN which were used by publishers to
+identify written texts.
+
+Currently there are PIDs to identify:
+
+- Contributor, inc. authors and researchers
+- Data and Software, inc. datasets, tables, figures, videos, code, 3D models
+- Publications, inc. books, articles, white papers, chapters
+- Projects, inc. grants given by funders
+- Organization, inc. institutions, funders, corporations, government agencies
+
+
+![PIDs and their metadata &copy; PID Competence Centre](fig/csm_open_science_circle_debe279d30.png)
+
 
 
 ::::::::::::::::::::::::::::::::::::: keypoints 

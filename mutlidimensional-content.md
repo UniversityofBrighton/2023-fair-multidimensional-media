@@ -14,7 +14,7 @@ multi-format and, often, large
 project files which describe the creation process. 
 
 
-We refer to media as **multi-dimensional**. 
+We refer to media as **multidimensional**. 
 This is because data experts structure information
 according to the **dimensions** used to store the data
 in the computer system. 
@@ -80,7 +80,7 @@ by Artificial Intelligence software).
 
 Given the wide-availability of camera sensors, including
 on smart phones and digital cameras,
-digital images are the widest available multi-dimensional media.
+digital images are the widest available multidimensional media.
 
 ### Image Platforms
 Collections of images are found across many website, and popular search engines
@@ -221,6 +221,9 @@ information of the 3D-cube you drawn.
 to go from a **vector** graphics description 
 into a **raster** image. In this process, we understand:
 
+![&copy; [Drummyfish](https://commons.wikimedia.org/wiki/File:Top-left_triangle_rasterization_rule.gif) under CC0](fig/Top-left_triangle_rasterization_rule.gif){alt='square raster format' width=60%}
+
+
 - The **vector** description allows a user to
 draw primitives such
 as 2D polygons, line segments and 3D shapes using 
@@ -234,6 +237,9 @@ cube using 4 coordinates: (0,0), (1,0), (1,1) and (0,1).
 vector description.
 
 ![](fig/square_raster.svg){alt='square raster format' width=60%}
+
+
+
 
 
 Now that we covered these concepts, we return to the definition of

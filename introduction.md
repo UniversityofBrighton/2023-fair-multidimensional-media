@@ -6,13 +6,13 @@ exercises: 2
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- What is multi-dimensional media?
+- What is multidimensional media?
 - What does the FAIR principles refer to?
 - What type of infrastructure are available
 for collaborative research and using 
-linking multi-dimensional data over the web?
+linking multidimensional data over the web?
 - What do I need to do if I want to create 
-stories with my own multi-dimensional linked data?
+stories with my own multidimensional linked data?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
