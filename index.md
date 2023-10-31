@@ -2,9 +2,9 @@
 site: sandpaper::sandpaper_site
 ---
 
-![&copy; Gstudio Templates from AdobeStock](episodes/fig/AdobeStock_270961762.jpeg){alt="logo media"}
+![&copy; Gstudio Templates from AdobeStock](episodes/fig/linked_media.png){alt="logo media"}
 
-Welcome to FAIR multidimensional media.
+Welcome to the FAIR multidimensional media lesson.
 
 This lesson offers a starting point to learn more
 about managing media in a way which promotes the FAIR
