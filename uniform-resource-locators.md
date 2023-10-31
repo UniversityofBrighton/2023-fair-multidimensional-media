@@ -38,6 +38,18 @@ called an URL (Uniform Resource Locator),
 such as [https://www.brighton.ac.uk](http://www.brighton.ac.uk), 
 [https://www.europeana.eu/en](https://www.europeana.eu/en). 
 
+## URL Paths
+Many webservers make use of the full URL path to send information
+to the server. A URL path usually specifies the location of the file 
+or resource that the user wants to access in the server. 
+
+You will find this usually with images, PDF and other multimedia file that
+a webpage will be including. For example:
+[https://culturedigitalskills.org/wp-content/uploads/Logo-Banner-3-1-1024x244.png](https://culturedigitalskills.org/wp-content/uploads/Logo-Banner-3-1-1024x244.png)
+
+
+## URL Anchors
+
 Furthermore, URLs can contain a link to a specific section within a web page
 by using anchors. You will notice the use of anchors on a URL, as they 
 include using a **#** symbol followed by a word. This word is usually defined
@@ -70,14 +82,45 @@ takes you to the sepecific section with the 17 SDG goals.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+## URL Query String (or Query Text!)
 
 URLs can become more complex if we want the server which
-is 'serving' our webpage to perform any additional functionality before, during or
-after loading the webpage. Sometimes, we might find a **?** symbol in the URL.
-This symbol signifies that some text will be passed as data to the server.
-The server might be running additional code which will process this text
+is 'serving' our webpage to perform any additional 
+functionality before, during or
+after loading the webpage. 
+
+The **?** symbol in a URL
+is known as URL parameter or query string.
+
+The query string is the portion of text 
+which comes after the 
+**?** symbol.
+
+This text will be 
+passed as data to the server.
+
+The server might be running additional 
+code which will process this text
 and change the content of the webpage accordingly.
 
+For example, in the query
+
+>[https://www.google.com/search**?q**=*news*&**as_sitesearch**=*www.brighton.ac.uk*&**sort**=*date:D:S:d1*](https://www.google.com/search?q=news&as_sitesearch=www.brighton.ac.uk&sort=date:D:S:d1)
+
+Note that you have three parameters:
+
+- **q**: the search query.
+- **as_sitesearch**: limits search results to documents in the specified domain, 
+host or web directory.
+- **date**: Sort results in descending order by date.
+
+If the *text* or *strings* contains more than one word,
+the spaces should be replaced by the + symbol. For example:
+
+>[https://www.google.com/search**?q**=*the+future+of+the+metaverse*](https://www.google.com/search?q=the+future+of+the+metaverse)
+
+
+More information about parameters for search: [https://www.google.com/support/enterprise/static/gsa/docs/admin/current/gsa_doc_set/xml_reference/request_format.html](https://www.google.com/support/enterprise/static/gsa/docs/admin/current/gsa_doc_set/xml_reference/request_format.html)
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
@@ -89,52 +132,41 @@ For example, search for the word: 'modernism'
 
 :::::::::::::::::::::::: solution 
 
-You will note that the URL contains the word modernism:
+Try using the query text in the Europeana URL to search for the word modernism:
 
 [https://www.europeana.eu/en/search?page=1&view=grid&query=modernism](https://www.europeana.eu/en/search?page=1&view=grid&query=modernism)
 
-Now, try changing directly the search term to the URL to another word.
+Now, try changing directly the search term to the URL to a phrase.
 
 Go back to the [Europeana homepage][Europeana].
 
-What happens to the URL when you add more than one word in the search? Why?
 
 :::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-Finally, many webservers make use of the full URL path to send information
-to the server. A URL path usually specifies the location of the file 
-or resource that the user wants to access in the server. 
 
-You will find this usually with images, PDF and other multimedia file that
-a webpage will be including. For example:
-[https://culturedigitalskills.org/wp-content/uploads/Logo-Banner-3-1-1024x244.png](https://culturedigitalskills.org/wp-content/uploads/Logo-Banner-3-1-1024x244.png)
-
-
-The URL path can also be used to specify text to the server,
-so that this is processed. After processing the URL 
-request the server will return a webpage. For example,
-
-This method is usually used by Application Programming Interfaces or (APIs).
-In this lesson, we won't explore this subject in detail. But it will be
-good you are aware that the information is passed to the server via the URL path.
+Query strings are also used by Application Programming Interfaces or (APIs).
+In this lesson, we won't explore this subject in detail. 
+But it will be
+good you are aware that the information is 
+passed to the server via the URL path.
 
 For example, try the URL:
 
 [https://gtr.gtr.ukri.org/gtr/api/projects/5B805CC1-2B54-4CAE-9243-8EF4AFC35E7E](https://gtr.gtr.ukri.org/gtr/api/projects/5B805CC1-2B54-4CAE-9243-8EF4AFC35E7E) 
 
-This URL queries
-an API to retrieve information that is contained in the database
+This URL queries an API (or database running on the server)
+to retrieve information that is contained in the database
 about the AHRC funded project 'A Roadmap for a National Training Centre 
 on Multidimensional Digital Media in the Arts and Humanities'. As you will see in the
 webpage, the information is not an HTML page but another structured type of
 data which contains various pieces of information about the project.
 
-To understand how to use these URL, you usually need the guide to the API, such as the
+To understand how to use these URL, you usually need the guide to the API.
+For example, the query specified above users the database of the
 [Gateway to research guide](https://gtr.ukri.org/resources/GtR-2-API-v1.7.5.pdf).
-
 
 ## Persistent Identifiers (PIDs)
 
@@ -163,11 +195,11 @@ Currently there are PIDs to identify:
 ![PIDs and their metadata &copy; PID Competence Centre](fig/csm_open_science_circle_debe279d30.png)
 
 
-
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
 - URLs can be a simple means to find a website
 - URLs can also include additional information which allows a server to change how the webpage is 'served'
+- Anchors allow to easily jump to part of the page.
 - URLs also provide the means to use a website as a database which can be queried via the URL path.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
