@@ -818,6 +818,17 @@ JavaScript, TypeScript or PHP. This code is in remote computers so that
 everyone can access the webpage they render.</p>
 <p>To find webpages, we use a link on a browser called an URL (Uniform
 Resource Locator), such as <a href="http://www.brighton.ac.uk" class="external-link">https://www.brighton.ac.uk</a>, <a href="https://www.europeana.eu/en" class="external-link">https://www.europeana.eu/en</a>.</p>
+</section><section id="url-paths"><h2 class="section-heading">URL Paths<a class="anchor" aria-label="anchor" href="#url-paths"></a>
+</h2>
+<hr class="half-width">
+<p>Many webservers make use of the full URL path to send information to
+the server. A URL path usually specifies the location of the file or
+resource that the user wants to access in the server.</p>
+<p>You will find this usually with images, PDF and other multimedia file
+that a webpage will be including. For example: <a href="https://culturedigitalskills.org/wp-content/uploads/Logo-Banner-3-1-1024x244.png" class="external-link">https://culturedigitalskills.org/wp-content/uploads/Logo-Banner-3-1-1024x244.png</a></p>
+</section><section id="url-anchors"><h2 class="section-heading">URL Anchors<a class="anchor" aria-label="anchor" href="#url-anchors"></a>
+</h2>
+<hr class="half-width">
 <p>Furthermore, URLs can contain a link to a specific section within a
 web page by using anchors. You will notice the use of anchors on a URL,
 as they include using a <strong>#</strong> symbol followed by a word.
@@ -857,13 +868,40 @@ goals.</p>
 </div>
 </div>
 </div>
+</section><section id="url-query-string-or-query-text"><h2 class="section-heading">URL Query String (or Query Text!)<a class="anchor" aria-label="anchor" href="#url-query-string-or-query-text"></a>
+</h2>
+<hr class="half-width">
 <p>URLs can become more complex if we want the server which is ‘serving’
 our webpage to perform any additional functionality before, during or
-after loading the webpage. Sometimes, we might find a <strong>?</strong>
-symbol in the URL. This symbol signifies that some text will be passed
-as data to the server. The server might be running additional code which
-will process this text and change the content of the webpage
-accordingly.</p>
+after loading the webpage.</p>
+<p>The <strong>?</strong> symbol in a URL is known as URL parameter or
+query string.</p>
+<p>The query string is the portion of text which comes after the
+<strong>?</strong> symbol.</p>
+<p>This text will be passed as data to the server.</p>
+<p>The server might be running additional code which will process this
+text and change the content of the webpage accordingly.</p>
+<p>For example, in the query</p>
+<blockquote>
+<p><a href="https://www.google.com/search?q=news&amp;as_sitesearch=www.brighton.ac.uk&amp;sort=date:D:S:d1" class="external-link">https://www.google.com/search<strong>?q</strong>=<em>news</em>&amp;<strong>as_sitesearch</strong>=<em>www.brighton.ac.uk</em>&amp;<strong>sort</strong>=<em>date:D:S:d1</em></a></p>
+</blockquote>
+<p>Note that you have three parameters:</p>
+<ul>
+<li>
+<strong>q</strong>: the search query.</li>
+<li>
+<strong>as_sitesearch</strong>: limits search results to documents
+in the specified domain, host or web directory.</li>
+<li>
+<strong>date</strong>: Sort results in descending order by
+date.</li>
+</ul>
+<p>If the <em>text</em> or <em>strings</em> contains more than one word,
+the spaces should be replaced by the + symbol. For example:</p>
+<blockquote>
+<p><a href="https://www.google.com/search?q=the+future+of+the+metaverse" class="external-link">https://www.google.com/search<strong>?q</strong>=<em>the+future+of+the+metaverse</em></a></p>
+</blockquote>
+<p>More information about parameters for search: <a href="https://www.google.com/support/enterprise/static/gsa/docs/admin/current/gsa_doc_set/xml_reference/request_format.html" class="external-link">https://www.google.com/support/enterprise/static/gsa/docs/admin/current/gsa_doc_set/xml_reference/request_format.html</a></p>
 <div id="challenge-use-a-query-in-a-url" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
@@ -886,39 +924,31 @@ accordingly.</p>
 </button>
 <div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
-<p>You will note that the URL contains the word modernism:</p>
+<p>Try using the query text in the Europeana URL to search for the word
+modernism:</p>
 <p><a href="https://www.europeana.eu/en/search?page=1&amp;view=grid&amp;query=modernism" class="external-link">https://www.europeana.eu/en/search?page=1&amp;view=grid&amp;query=modernism</a></p>
-<p>Now, try changing directly the search term to the URL to another
-word.</p>
+<p>Now, try changing directly the search term to the URL to a
+phrase.</p>
 <p>Go back to the [Europeana homepage][Europeana].</p>
-<p>What happens to the URL when you add more than one word in the
-search? Why?</p>
 </div>
 </div>
 </div>
 </div>
-<p>Finally, many webservers make use of the full URL path to send
-information to the server. A URL path usually specifies the location of
-the file or resource that the user wants to access in the server.</p>
-<p>You will find this usually with images, PDF and other multimedia file
-that a webpage will be including. For example: <a href="https://culturedigitalskills.org/wp-content/uploads/Logo-Banner-3-1-1024x244.png" class="external-link">https://culturedigitalskills.org/wp-content/uploads/Logo-Banner-3-1-1024x244.png</a></p>
-<p>The URL path can also be used to specify text to the server, so that
-this is processed. After processing the URL request the server will
-return a webpage. For example,</p>
-<p>This method is usually used by Application Programming Interfaces or
+<p>Query strings are also used by Application Programming Interfaces or
 (APIs). In this lesson, we won’t explore this subject in detail. But it
 will be good you are aware that the information is passed to the server
 via the URL path.</p>
 <p>For example, try the URL:</p>
 <p><a href="https://gtr.gtr.ukri.org/gtr/api/projects/5B805CC1-2B54-4CAE-9243-8EF4AFC35E7E" class="external-link">https://gtr.gtr.ukri.org/gtr/api/projects/5B805CC1-2B54-4CAE-9243-8EF4AFC35E7E</a></p>
-<p>This URL queries an API to retrieve information that is contained in
-the database about the AHRC funded project ‘A Roadmap for a National
-Training Centre on Multidimensional Digital Media in the Arts and
-Humanities’. As you will see in the webpage, the information is not an
-HTML page but another structured type of data which contains various
-pieces of information about the project.</p>
+<p>This URL queries an API (or database running on the server) to
+retrieve information that is contained in the database about the AHRC
+funded project ‘A Roadmap for a National Training Centre on
+Multidimensional Digital Media in the Arts and Humanities’. As you will
+see in the webpage, the information is not an HTML page but another
+structured type of data which contains various pieces of information
+about the project.</p>
 <p>To understand how to use these URL, you usually need the guide to the
-API, such as the <a href="https://gtr.ukri.org/resources/GtR-2-API-v1.7.5.pdf" class="external-link">Gateway to
+API. For example, the query specified above users the database of the <a href="https://gtr.ukri.org/resources/GtR-2-API-v1.7.5.pdf" class="external-link">Gateway to
 research guide</a>.</p>
 </section><section id="persistent-identifiers-pids"><h2 class="section-heading">Persistent Identifiers (PIDs)<a class="anchor" aria-label="anchor" href="#persistent-identifiers-pids"></a>
 </h2>
@@ -955,6 +985,7 @@ agencies</li>
 <li>URLs can be a simple means to find a website</li>
 <li>URLs can also include additional information which allows a server
 to change how the webpage is ‘served’</li>
+<li>Anchors allow to easily jump to part of the page.</li>
 <li>URLs also provide the means to use a website as a database which can
 be queried via the URL path.</li>
 </ul>
@@ -1484,26 +1515,37 @@ together for image interoperability.</p>
 <p>There are several more APIs that IIIF supports including Search and
 Authentication.</p>
 <p>This workshop will focus on the Image and Presentation APIs.</p>
-</section><section id="image-api"><h2 class="section-heading">
-<a href="http://iiif.io/api/image/2.1/" class="external-link">Image API</a><a class="anchor" aria-label="anchor" href="#image-api"></a>
+</section><section id="image-api"><h2 class="section-heading">Image API<a class="anchor" aria-label="anchor" href="#image-api"></a>
 </h2>
 <hr class="half-width">
-<p>The Image API provides for a standardized way to request and deliver
-images. This can be as simple as, give me the original image to give me
-an upside down tiled version of the image in gif format. The IIIF Image
-API is restful and allows for images to be served dynamically or from a
-static cache (implementation details).</p>
+<p>The <a href="http://iiif.io/api/image/2.1/" class="external-link">Image API</a> provides
+for a standardized way to request and deliver images. This can be for
+example:</p>
+<blockquote>
+<p>Give me the original image at full resolution.</p>
+</blockquote>
+<blockquote>
+<p>Give me the original image at low resolution.</p>
+</blockquote>
+<blockquote>
+<p>Give me a small section at the centre of the image.</p>
+</blockquote>
+<blockquote>
+<p>Give me an upside down tiled version of the image in gif format.</p>
+</blockquote>
+<p>The IIIF Image API allows for images to be served dynamically or from
+a static cache (implementation details).</p>
 <p>Images are requested using URI templates that have the following
 syntax:</p>
 <pre><code>{scheme}://{server}{/prefix}/{identifier}/{region}/{size}/{rotation}/{quality}.{format}</code></pre>
 <p>Here is a quick example of how modifying these parameters can change
 the image that is delivered back to you.</p>
-<p><a href="http://iiif.io/api/image/2.1/#order-of-implementation" class="external-link"><img src="https://github.com/IIIF/training/tree/master/intro-to-iiif/images/transformation.png" alt="transformation" class="figure"></a><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<p><a href="http://iiif.io/api/image/2.1/#order-of-implementation" class="external-link"><img src="transformation.png" alt="transformation © IIIF" class="figure"></a><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
 <pre><code>region=125,15,120,140 size=90, rotation=!345 quality=gray
+
 .../125,15,120,140/90,/!345/gray.jpg
+
 # Source: http://iiif.io/api/image/2.1/#order-of-implementation</code></pre>
-<p>We will go more in depth on this later with a hands on demonstration
-of how this works.</p>
 </section><section id="presentation-api"><h2 class="section-heading">
 <a href="http://iiif.io/api/presentation/2.1/" class="external-link">Presentation
 API</a><a class="anchor" aria-label="anchor" href="#presentation-api"></a>

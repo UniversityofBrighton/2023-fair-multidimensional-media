@@ -211,7 +211,7 @@
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
         <ul><li><a href="#what-is-iiif">What is IIIF?</a></li>
-<li><a href="#image-api"></a><a href="http://iiif.io/api/image/2.1/" class="external-link">Image API</a></li>
+<li><a href="#image-api">Image API</a></li>
 <li><a href="#presentation-api"></a><a href="http://iiif.io/api/presentation/2.1/" class="external-link">Presentation
 API</a></li>
         </ul></div><!--/div.accordion-body-->
@@ -339,25 +339,36 @@ together for image interoperability.</p>
 </ul><p>There are several more APIs that IIIF supports including Search and
 Authentication.</p>
 <p>This workshop will focus on the Image and Presentation APIs.</p>
-</section><section id="image-api"><h2 class="section-heading">
-<a href="http://iiif.io/api/image/2.1/" class="external-link">Image API</a><a class="anchor" aria-label="anchor" href="#image-api"></a>
+</section><section id="image-api"><h2 class="section-heading">Image API<a class="anchor" aria-label="anchor" href="#image-api"></a>
 </h2>
-<hr class="half-width"><p>The Image API provides for a standardized way to request and deliver
-images. This can be as simple as, give me the original image to give me
-an upside down tiled version of the image in gif format. The IIIF Image
-API is restful and allows for images to be served dynamically or from a
-static cache (implementation details).</p>
+<hr class="half-width"><p>The <a href="http://iiif.io/api/image/2.1/" class="external-link">Image API</a> provides
+for a standardized way to request and deliver images. This can be for
+example:</p>
+<blockquote>
+<p>Give me the original image at full resolution.</p>
+</blockquote>
+<blockquote>
+<p>Give me the original image at low resolution.</p>
+</blockquote>
+<blockquote>
+<p>Give me a small section at the centre of the image.</p>
+</blockquote>
+<blockquote>
+<p>Give me an upside down tiled version of the image in gif format.</p>
+</blockquote>
+<p>The IIIF Image API allows for images to be served dynamically or from
+a static cache (implementation details).</p>
 <p>Images are requested using URI templates that have the following
 syntax:</p>
 <pre><code>{scheme}://{server}{/prefix}/{identifier}/{region}/{size}/{rotation}/{quality}.{format}</code></pre>
 <p>Here is a quick example of how modifying these parameters can change
 the image that is delivered back to you.</p>
-<p><a href="http://iiif.io/api/image/2.1/#order-of-implementation" class="external-link"><img src="https://github.com/IIIF/training/tree/master/intro-to-iiif/images/transformation.png" alt="transformation" class="figure"></a><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<p><a href="http://iiif.io/api/image/2.1/#order-of-implementation" class="external-link"><img src="../transformation.png" alt="transformation © IIIF" class="figure"></a><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
 <pre><code>region=125,15,120,140 size=90, rotation=!345 quality=gray
+
 .../125,15,120,140/90,/!345/gray.jpg
+
 # Source: http://iiif.io/api/image/2.1/#order-of-implementation</code></pre>
-<p>We will go more in depth on this later with a hands on demonstration
-of how this works.</p>
 </section><section id="presentation-api"><h2 class="section-heading">
 <a href="http://iiif.io/api/presentation/2.1/" class="external-link">Presentation
 API</a><a class="anchor" aria-label="anchor" href="#presentation-api"></a>
