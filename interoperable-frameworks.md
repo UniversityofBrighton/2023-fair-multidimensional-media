@@ -85,15 +85,53 @@ region=125,15,120,140 size=90, rotation=!345 quality=gray
 # Source: http://iiif.io/api/image/2.1/#order-of-implementation
 ```
 
+Options for quality include: bitonal, color, default, and gray.
+
 ::::: challenge
 
 ## Trying the Image API
 
+
+For the following image in the Image API Service:
+
+[https://iiif.wellcomecollection.org/image/b3047744x_0001.jp2](https://iiif.wellcomecollection.org/image/b3047744x_0001.jp2)
+
+try adding the following parameters
+
+```
+region=0,0,200,200 
+
+size=500,
+
+rotation=!180 
+
+quality=color
+
+```
+
+and 
+
+```
+region=full 
+
+size=full 
+
+rotation=!180 
+
+quality=gray
+
+```
+
+:::: solution
+
+[https://iiif.wellcomecollection.org/image/b3047744x_0001.jp2/0,0,200,200/500,/!180/color.jpg](https://iiif.wellcomecollection.org/image/b3047744x_0001.jp2/0,0,200,200/500,/!180/color.jpg)
 :::::
 
-## [Presentation API](http://iiif.io/api/presentation/2.1/)
+:::::
 
-The IIIF Presentation API enables you to provide metadata about the structure and layout of image objects. Image type objects represent things like:
+## Presentation API
+
+The [IIIF Presentation AP](http://iiif.io/api/presentation/2.1/)I enables you to provide metadata about the structure and layout of image objects. Image type objects represent things like:
  - single images
  - groups of ordered images
  - groups of images that represent pages (book, manuscript)
