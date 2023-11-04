@@ -2,7 +2,7 @@
 site: sandpaper::sandpaper_site
 ---
 
-![&copy; Gstudio Templates from AdobeStock](episodes/fig/linked_media.png){alt="logo media"}
+![&copy; Gstudio Templates from AdobeStock](episodes/fig/linked-media.png){alt="logo media"}
 
 Welcome to the FAIR multidimensional media lesson.
 

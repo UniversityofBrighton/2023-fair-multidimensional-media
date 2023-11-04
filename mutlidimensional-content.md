@@ -57,8 +57,7 @@ This is why *resolution* is usually given
 in *2-dimensions*, for example an image with a resolution of
 *800 × 600 pixels* will have *800 pixels* across the x-axis
 (its width),
-and *600 pixels* across the y-axis (its height). The image will contain  
-*480,000 pixels* in total.
+and *600 pixels* across the y-axis (its height). The image will contain  *480,000 pixels* in total.
 
 ![3 pictures of a car, from a high resolution (to the left) to a low resolution (to the right) &copy; Ruizo~commonswiki from Wikimedia](fig/resolution_test.jpg){alt="3 pictures of a car, from a high resolution (to the left) to a low resolution (to the right)"}
 
@@ -172,9 +171,50 @@ be larger and hence, challenging
 to send via email or download over the web. 
 
 ## 3D Images or Models
-Before exploring what 3D images or 3D models are, 
-there are some relevant concepts to cover.
+A **3D model** is a 3-dimensional type of media. It 
+describes 3D shapes along with other information related to its 
+appearance, e.g. colour information. 
 
+To understand how **3D models** are described
+and displayed in the computer, we need to understand two concepts
+**vector** and **raster** data.
+
+
+In this lesson, we won't cover how **3D models** are created.
+There are resources here to learn more about processes:
+
+- [CARARE Introduction to the 3D workflow](https://carare.gitbook.io/share-3d-guidelines/3d-process/context)
+- [Photogrammetry](https://sketchfab.com/blogs/community/how-to-set-up-a-successful-photogrammetry-project)
+- [Basic principles and tips for 3D digitisation of cultural heritage
+](https://digital-strategy.ec.europa.eu/en/library/basic-principles-and-tips-3d-digitisation-cultural-heritage)
+
+### Vector Data
+Regardless of the process, the output of these processes, 
+in most cases will produce a **3D model** file which 
+contains **vector** data. This data include:
+
+- Points or vertices described in a 3D space.
+- Information on how the points are connected to form
+shapes such as triangles, which is known as the topology
+or connectivity of the 3D model.
+- Colour or texture (image) information which describe its appearance. 
+
+For example, to describe a 3D cube, the file will contain
+data describing the 6 squares using 
+point coordinates (e.g. (1,0,0)).
+
+![](fig/cube.png){alt='cube vector format'width=60%}
+
+
+In the example below, a squareis described
+using 4 points or *vertices*: (0,0,0), (1,0,0), (1,1,0) and (0,1,0).
+
+
+![](fig/square.svg){alt='square vector format'width=60%}
+
+
+
+<!--
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
 This exercise requires having access to blank paper and a square-grid paper.
@@ -215,47 +255,44 @@ information of the 3D-cube you drawn.
 
 :::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
-
+-->
+### Raster Data
 
 **Rasterisation** is the process 
-to go from a **vector** graphics description 
-into a **raster** image. In this process, we understand:
+to go from a **vector** description 
+into a **raster** image. 
+
+The **raster image** is the pixel-based representation of the
+vector description.
 
 ![&copy; [Drummyfish](https://commons.wikimedia.org/wiki/File:Top-left_triangle_rasterization_rule.gif) under CC0](fig/Top-left_triangle_rasterization_rule.gif){alt='square raster format' width=60%}
 
 
-- The **vector** description allows a user to
-draw primitives such
-as 2D polygons, line segments and 3D shapes using 
-coordinates (e.g. (1,0)) or mathematical functions.
-
-![](fig/square.svg){alt='square vector format'width=60%}
-In the example above, a user can describe a 
-cube using 4 coordinates: (0,0), (1,0), (1,1) and (0,1).
-
-- The **raster image** is the pixel-based representation of the
-vector description.
-
+<!--
 ![](fig/square_raster.svg){alt='square raster format' width=60%}
+-->
 
 
+**3D models** are *rendered*
+as raster images on the screen, smartphone or any
+other display device (e.g. a Virtual Reality headset).
+The computer will have to *compute* this raster
+image in real-time, which is why
+**3D models** which contain many vertices
+can be slow to *render*.
 
 
+### Examples of 3D models
+We tend to use **3D model** to refer to many types of 
+spatial data.
 
-Now that we covered these concepts, we return to the definition of
-**3-dimensional** media. A **3-dimensional** image or model
-normally refers to a file(s) with vector data which describes 
-spatial information.
+For example, see below an example of a 3D model
+of an architectural space. 
 
-
-For example, a 3D model might contain information related to:
-
-- Points in space acquired by a sensor device such
+<!-- Points in space acquired by a sensor device such
 as a 3D scanner, or 
 - Points calculated by a photogrammetry process, which calculates
-spatial data from images of the same object.
-- An architectural 3D drawing with measurements for walls and other
-architectural elements.
+spatial data from images of the same object.-->
 
 <iframe
   name="Bamberg, Kaisersaal, 4x8k"
@@ -264,35 +301,49 @@ architectural elements.
   loading="lazy"
   width="100%"
   height="500px"></iframe>
-&copy; [Jan Lutteroth, Corpus der brocken Deckenmalerei, Institut für Kunstgeschichte](https://kompakkt.de/entity/64181f0a07603d5bf4087497)
+&copy; [Jan Lutteroth, Corpus der brocken Deckenmalerei, Institut für Kunstgeschichte, 3D model from Kompakkt](https://kompakkt.de/entity/64181f0a07603d5bf4087497)
 
-This type of dataset can also extend into **4-dimensions** by
-also considering time. For instance, data captured
-by a motion capture device will produce a vector data which changes
-every time the device samples new data. We call this measure
+
+<iframe src="https://visual.ariadne-infrastructure.eu/3d/reperto_05"
+allowfullscreen
+  loading="lazy"
+  width="100%"
+  height="500px">
+</iframe>
+&copy; [Trozzella from VisualMedia Service](https://visual.ariadne-infrastructure.eu/3d/reperto_05)
+
+
+In many cases, the 3D data can be mostly points in 3D space as
+shown below.
+
+<iframe src="https://potree.org/potree/examples/viewer.html" 
+width="100%"
+height="500px" frameborder="0"></iframe>
+&copy; [Markus Schütz, point cloud rendered in Potree which is a viewer for large point cloud / LIDAR data sets](https://potree.org/potree/examples/viewer.html)
+
+Spatial data can also be recorded with an additional
+parameter - **time**. 
+
+For instance, motion capture devices will
+generate vector data which changes many times within a second.
+We call this measure
 sampling rate per second.
 
-![Motion Capture 3D Render of character walking &copy; vrx123 from AdobeStock](fig/AdobeStock_236224485.jpeg){alt="motion capture"}
+<iframe title="Motion Capture : Antonio d'Angelo / Effigy" 
+frameborder="0" allowfullscreen mozallowfullscreen="true" 
+width="100%"
+height="500px"
+webkitallowfullscreen="true" 
+allow="autoplay; fullscreen; 
+xr-spatial-tracking" 
+xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered 
+web-share src="https://sketchfab.com/models/02238db7b53348cb863d3f6eafb413bf/embed"> </iframe> 
+&copy; [Motion Capture : Antonio d'Angelo / Effigy, 3D animated model from Sketchfab](https://sketchfab.com/3d-models/motion-capture-antonio-dangelo-effigy-02238db7b53348cb863d3f6eafb413bf)
 
-
-The **vector** description allows a user to
-draw primitives such
-as 2D polygons, line segments and 3D shapes using 
-coordinates (e.g. (1,0)) or mathematical functions.
-
-
-**3D image** or model files contain **vector** information,
-including:
-
-- Points or vertices with coordinate information
-- Information on how various points are connected to form
-shapes such as triangles, which is known as the topology
-or connectivity of the 3D model.
-
-![3D model showing high, medium and low resolution &copy; vrx123 from AdobeStock](fig/AdobeStock_405814510.jpeg){alt="3D vector data"}
 
 
 ### 3D Model Platforms
+
 Popular format platforms include:
 
 - [Sketchfab](https://sketchfab.com/)
@@ -303,7 +354,7 @@ Popular format platforms include:
 - [Open Heritage 3D](https://openheritage3d.org/ )
 - [Visual Media Service](https://visual.ariadne-infrastructure.eu/)
 
-As with video, the *viewers* for **3D models* normally allow
+As with video, the *viewers* for **3D models** normally allow
 to visualise and interact with the information. But not always
 does it allow to download the file.
 

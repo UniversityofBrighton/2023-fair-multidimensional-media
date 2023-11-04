@@ -6,14 +6,6 @@ exercises: 2
 
 ![&copy; ImageFlow from AdobeStock](fig/AdobeStock_507575662.jpeg){alt='connect blocks'}
 
-A variety of tools are available over the web to bring together multidimensional content
-by deploying storytelling or visualisation techniques:
-
-
-
-- [Exhibit](https://www.exhibit.so/)
-- [TimeMapper from Open Knowledge Foundation Labs]( https://timemapper.okfnlabs.org/)
-- [Meet StoryMaps](https://storymaps.com/)
 
 ## What is IIIF?
 Whatever the tool used for developing an application,  
@@ -131,7 +123,12 @@ quality=gray
 
 ## Presentation API
 
-The [IIIF Presentation AP](http://iiif.io/api/presentation/2.1/)I enables you to provide metadata about the structure and layout of image objects. Image type objects represent things like:
+The [IIIF Presentation API](http://iiif.io/api/presentation/2.1/) 
+enables you to provide a structured layout of multidimensional
+objects and their metadata.
+
+metadata about the structure and layout of 
+image objects. Image type objects represent things like:
  - single images
  - groups of ordered images
  - groups of images that represent pages (book, manuscript)
@@ -152,4 +149,13 @@ Content adopted from [IIIF Training](https://training.iiif.io/) &copy IIIF under
 
 More information: [Everything you ever wanted to know about IIIF but were too afraid to ask](https://www.slideshare.net/Cogapp/everything-you-ever-wanted-to-know-about-iiif-but-were-too-afraid-to-ask).
 
+
+A variety of tools are available over the web to bring together multidimensional content
+by deploying storytelling or visualisation techniques:
+
+
+
+- [Exhibit](https://www.exhibit.so/)
+- [TimeMapper from Open Knowledge Foundation Labs]( https://timemapper.okfnlabs.org/)
+- [Meet StoryMaps](https://storymaps.com/)
 
