@@ -330,7 +330,7 @@
         
 <section id="aio-introduction"><p>Content from <a href="introduction.html">Introduction</a></p>
 <hr>
-<p> Last updated on 2023-11-01 | 
+<p> Last updated on 2023-11-04 | 
         
         <a href="https://github.com/UniversityofBrighton/2023-fair-multidimensional-media/edit/main/episodes/introduction.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -381,7 +381,7 @@ many examples and websites in this area. Howver, many concepts are
 cross-disciplinary and can be applied to other areas as well as
 sectors.</p></section><section id="aio-mutlidimensional-content"><p>Content from <a href="mutlidimensional-content.html">Types of Multidimensional Media</a></p>
 <hr>
-<p> Last updated on 2023-11-01 | 
+<p> Last updated on 2023-11-04 | 
         
         <a href="https://github.com/UniversityofBrighton/2023-fair-multidimensional-media/edit/main/episodes/mutlidimensional-content.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -423,7 +423,8 @@ Commons</figcaption></figure><p>The <strong>image resolution</strong> usually re
 why <em>resolution</em> is usually given in <em>2-dimensions</em>, for
 example an image with a resolution of <em>800 × 600 pixels</em> will
 have <em>800 pixels</em> across the x-axis (its width), and <em>600
-pixels</em> across the y-axis (its height). The image will contain<br><em>480,000 pixels</em> in total.</p>
+pixels</em> across the y-axis (its height). The image will contain
+<em>480,000 pixels</em> in total.</p>
 <figure><img src="fig/resolution_test.jpg" alt="3 pictures of a car, from a high resolution (to the left) to a low resolution (to the right)" class="figure mx-auto d-block"><figcaption>3 pictures of a car, from a high resolution (to the
 left) to a low resolution (to the right) © Ruizo~commonswiki from
 Wikimedia</figcaption></figure><p>Meanwhile, the <strong>PPI</strong> or <strong>DPI</strong>
@@ -536,124 +537,139 @@ hence, challenging to send via email or download over the web.</p>
 </section><section id="d-images-or-models"><h2 class="section-heading">3D Images or Models<a class="anchor" aria-label="anchor" href="#d-images-or-models"></a>
 </h2>
 <hr class="half-width">
-<p>Before exploring what 3D images or 3D models are, there are some
-relevant concepts to cover.</p>
-
-<div id="challenge-1-drawing-a-3d-cube" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="challenge-1-drawing-a-3d-cube" class="callout-inner">
-<h3 class="callout-title">Challenge 1: Drawing a 3D-cube<a class="anchor" aria-label="anchor" href="#challenge-1-drawing-a-3d-cube"></a>
+<p>A <strong>3D model</strong> is a 3-dimensional type of media. It
+describes 3D shapes along with other information related to its
+appearance, e.g. colour information.</p>
+<p>To understand how <strong>3D models</strong> are described and
+displayed in the computer, we need to understand two concepts
+<strong>vector</strong> and <strong>raster</strong> data.</p>
+<p>In this lesson, we won’t cover how <strong>3D models</strong> are
+created. There are resources here to learn more about processes:</p>
+<ul>
+<li><a href="https://carare.gitbook.io/share-3d-guidelines/3d-process/context" class="external-link">CARARE
+Introduction to the 3D workflow</a></li>
+<li><a href="https://sketchfab.com/blogs/community/how-to-set-up-a-successful-photogrammetry-project" class="external-link">Photogrammetry</a></li>
+<li><a href="https://digital-strategy.ec.europa.eu/en/library/basic-principles-and-tips-3d-digitisation-cultural-heritage" class="external-link">Basic
+principles and tips for 3D digitisation of cultural heritage</a></li>
+</ul>
+<div class="section level3">
+<h3 id="vector-data">Vector Data<a class="anchor" aria-label="anchor" href="#vector-data"></a>
 </h3>
-<div class="callout-content">
-<p>In a piece of blank paper, draw a 3-dimensional cube or box of
-dimensions:</p>
-<p>height = 1</p>
-<p>width = 1</p>
-<p>depth = 1</p>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">
-  Show me the solution
-  </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
-<div class="accordion-body">
+<p>Regardless of the process, the output of these processes, in most
+cases will produce a <strong>3D model</strong> file which contains
+<strong>vector</strong> data. This data include:</p>
+<ul>
+<li>Points or vertices described in a 3D space.</li>
+<li>Information on how the points are connected to form shapes such as
+triangles, which is known as the topology or connectivity of the 3D
+model.</li>
+<li>Colour or texture (image) information which describe its
+appearance.</li>
+</ul>
+<p>For example, to describe a 3D cube, the file will contain data
+describing the 6 squares using point coordinates (e.g. (1,0,0)).</p>
+<figure><img src="fig/cube.png" style="width:60.0%" alt="cube vector format" class="figure mx-auto d-block"></figure><p>In the example below, a squareis described using 4 points or
+<em>vertices</em>: (0,0,0), (1,0,0), (1,1,0) and (0,1,0).</p>
+<figure><img src="fig/square.svg" style="width:60.0%" alt="square vector format" class="figure mx-auto d-block"></figure><!--
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
+This exercise requires having access to blank paper and a square-grid paper.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: challenge 
+
+## Challenge 1: Drawing a 3D-cube
+
+In a piece of blank paper, draw a 3-dimensional cube or box of dimensions:
+
+height = 1 
+
+width = 1  
+
+depth = 1
+
+::::::::::::::::::::::::::::::::::::: solution 
+
+
+:::::::::::::::::::::::::::::::::
+
+## Challenge 2: Draw it again
+
+Now, using a square-grid paper draw again your cube or box using the 
+same dimensions. In this exercise you must decide whether to fill or
+not the squares of the grid to draw your 3-dimensional box.
+
+:::::::::::::::::::::::: solution 
+
+You have just experienced the concept of **Rasterisation**. 
+
+This challenge illustrates the decision made by the computer
+on what information to display on the screen. It must decide
+whether a pixel should be drawn or not to represent the 
+information of the 3D-cube you drawn.
+
+:::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::
+-->
 </div>
-</div>
-</div>
-</div>
-<div id="challenge-2-draw-it-again" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="challenge-2-draw-it-again" class="callout-inner">
-<h3 class="callout-title">Challenge 2: Draw it again<a class="anchor" aria-label="anchor" href="#challenge-2-draw-it-again"></a>
+<div class="section level3">
+<h3 id="raster-data">Raster Data<a class="anchor" aria-label="anchor" href="#raster-data"></a>
 </h3>
-<div class="callout-content">
-<p>Now, using a square-grid paper draw again your cube or box using the
-same dimensions. In this exercise you must decide whether to fill or not
-the squares of the grid to draw your 3-dimensional box.</p>
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2">
-  Show me the solution
-  </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
-<div class="accordion-body">
-<p>You have just experienced the concept of
-<strong>Rasterisation</strong>.</p>
-<p>This challenge illustrates the decision made by the computer on what
-information to display on the screen. It must decide whether a pixel
-should be drawn or not to represent the information of the 3D-cube you
-drawn.</p>
-</div>
-</div>
-</div>
-</div>
 <p><strong>Rasterisation</strong> is the process to go from a
-<strong>vector</strong> graphics description into a
-<strong>raster</strong> image. In this process, we understand:</p>
+<strong>vector</strong> description into a <strong>raster</strong>
+image.</p>
+<p>The <strong>raster image</strong> is the pixel-based representation
+of the vector description.</p>
 <figure><img src="fig/Top-left_triangle_rasterization_rule.gif" style="width:60.0%" alt="square raster format" class="figure mx-auto d-block"><figcaption>© <a href="https://commons.wikimedia.org/wiki/File:Top-left_triangle_rasterization_rule.gif" class="external-link">Drummyfish</a>
-under CC0</figcaption></figure><ul>
-<li>The <strong>vector</strong> description allows a user to draw
-primitives such as 2D polygons, line segments and 3D shapes using
-coordinates (e.g. (1,0)) or mathematical functions.</li>
-</ul>
-<p><img src="fig/square.svg" style="width:60.0%" alt="square vector format" class="figure"> In the example above, a user can describe
-a cube using 4 coordinates: (0,0), (1,0), (1,1) and (0,1).</p>
-<ul>
-<li>The <strong>raster image</strong> is the pixel-based representation
-of the vector description.</li>
-</ul>
-<figure><img src="fig/square_raster.svg" style="width:60.0%" alt="square raster format" class="figure mx-auto d-block"></figure><p>Now that we covered these concepts, we return to the definition of
-<strong>3-dimensional</strong> media. A <strong>3-dimensional</strong>
-image or model normally refers to a file(s) with vector data which
-describes spatial information.</p>
-<p>For example, a 3D model might contain information related to:</p>
-<ul>
-<li>Points in space acquired by a sensor device such as a 3D scanner,
-or</li>
-<li>Points calculated by a photogrammetry process, which calculates
-spatial data from images of the same object.</li>
-<li>An architectural 3D drawing with measurements for walls and other
-architectural elements.</li>
-</ul>
+under CC0</figcaption></figure><!--
+![](fig/square_raster.svg){alt='square raster format' width=60%}
+--><p><strong>3D models</strong> are <em>rendered</em> as raster images on
+the screen, smartphone or any other display device (e.g. a Virtual
+Reality headset). The computer will have to <em>compute</em> this raster
+image in real-time, which is why <strong>3D models</strong> which
+contain many vertices can be slow to <em>render</em>.</p>
+</div>
+<div class="section level3">
+<h3 id="examples-of-3d-models">Examples of 3D models<a class="anchor" aria-label="anchor" href="#examples-of-3d-models"></a>
+</h3>
+<p>We tend to use <strong>3D model</strong> to refer to many types of
+spatial data.</p>
+<p>For example, see below an example of a 3D model of an architectural
+space.</p>
+<!-- Points in space acquired by a sensor device such
+as a 3D scanner, or 
+- Points calculated by a photogrammetry process, which calculates
+spatial data from images of the same object.-->
 <iframe name="Bamberg, Kaisersaal, 4x8k" src="https://kompakkt.de/viewer/index.html?entity=61f7bce9605228325f63190d&amp;mode=open" allowfullscreen loading="lazy" width="100%" height="500px">
 </iframe>
 <p>© <a href="https://kompakkt.de/entity/64181f0a07603d5bf4087497" class="external-link">Jan
 Lutteroth, Corpus der brocken Deckenmalerei, Institut für
-Kunstgeschichte</a></p>
-<p>This type of dataset can also extend into
-<strong>4-dimensions</strong> by also considering time. For instance,
-data captured by a motion capture device will produce a vector data
-which changes every time the device samples new data. We call this
-measure sampling rate per second.</p>
-<figure><img src="fig/AdobeStock_236224485.jpeg" alt="motion capture" class="figure mx-auto d-block"><figcaption>Motion Capture 3D Render of character walking ©
-vrx123 from AdobeStock</figcaption></figure><p>The <strong>vector</strong> description allows a user to draw
-primitives such as 2D polygons, line segments and 3D shapes using
-coordinates (e.g. (1,0)) or mathematical functions.</p>
-<p><strong>3D image</strong> or model files contain
-<strong>vector</strong> information, including:</p>
-<ul>
-<li>Points or vertices with coordinate information</li>
-<li>Information on how various points are connected to form shapes such
-as triangles, which is known as the topology or connectivity of the 3D
-model.</li>
-</ul>
-<figure><img src="fig/AdobeStock_405814510.jpeg" alt="3D vector data" class="figure mx-auto d-block"><figcaption>3D model showing high, medium and low resolution ©
-vrx123 from AdobeStock</figcaption></figure><div class="section level3">
+Kunstgeschichte, 3D model from Kompakkt</a></p>
+<iframe src="https://visual.ariadne-infrastructure.eu/3d/reperto_05" allowfullscreen loading="lazy" width="100%" height="500px">
+</iframe>
+<p>© <a href="https://visual.ariadne-infrastructure.eu/3d/reperto_05" class="external-link">Trozzella
+from VisualMedia Service</a></p>
+<p>In many cases, the 3D data can be mostly points in 3D space as shown
+below.</p>
+<iframe src="https://potree.org/potree/examples/viewer.html" width="100%" height="500px" frameborder="0">
+</iframe>
+<p>© <a href="https://potree.org/potree/examples/viewer.html" class="external-link">Markus
+Schütz, point cloud rendered in Potree which is a viewer for large point
+cloud / LIDAR data sets</a></p>
+<p>Spatial data can also be recorded with an additional parameter -
+<strong>time</strong>.</p>
+<p>For instance, motion capture devices will generate vector data which
+changes many times within a second. We call this measure sampling rate
+per second.</p>
+<iframe title="Motion Capture : Antonio d'Angelo / Effigy" frameborder="0" allowfullscreen mozallowfullscreen="true" width="100%" height="500px" webkitallowfullscreen="true" allow="autoplay; fullscreen; 
+xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/02238db7b53348cb863d3f6eafb413bf/embed">
+</iframe>
+<p>© <a href="https://sketchfab.com/3d-models/motion-capture-antonio-dangelo-effigy-02238db7b53348cb863d3f6eafb413bf" class="external-link">Motion
+Capture : Antonio d’Angelo / Effigy, 3D animated model from
+Sketchfab</a></p>
+</div>
+<div class="section level3">
 <h3 id="d-model-platforms">3D Model Platforms<a class="anchor" aria-label="anchor" href="#d-model-platforms"></a>
 </h3>
 <p>Popular format platforms include:</p>
@@ -667,9 +683,9 @@ vrx123 from AdobeStock</figcaption></figure><div class="section level3">
 <li><a href="https://visual.ariadne-infrastructure.eu/" class="external-link">Visual Media
 Service</a></li>
 </ul>
-<p>As with video, the <em>viewers</em> for **3D models* normally allow
-to visualise and interact with the information. But not always does it
-allow to download the file.</p>
+<p>As with video, the <em>viewers</em> for <strong>3D models</strong>
+normally allow to visualise and interact with the information. But not
+always does it allow to download the file.</p>
 </div>
 <div class="section level3">
 <h3 id="d-model-formats">3D Model Formats<a class="anchor" aria-label="anchor" href="#d-model-formats"></a>
@@ -791,7 +807,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-uniform-resource-locators"><p>Content from <a href="uniform-resource-locators.html">Uniform Resource Locators (URLs)</a></p>
 <hr>
-<p> Last updated on 2023-11-01 | 
+<p> Last updated on 2023-11-04 | 
         
         <a href="https://github.com/UniversityofBrighton/2023-fair-multidimensional-media/edit/main/episodes/uniform-resource-locators.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -998,7 +1014,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-making-it-fair"><p>Content from <a href="making-it-fair.html">Making it FAIR</a></p>
 <hr>
-<p> Last updated on 2023-11-01 | 
+<p> Last updated on 2023-11-04 | 
         
         <a href="https://github.com/UniversityofBrighton/2023-fair-multidimensional-media/edit/main/episodes/making-it-fair.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1169,7 +1185,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-virtual-research-environment"><p>Content from <a href="virtual-research-environment.html">Virtual Research Environment</a></p>
 <hr>
-<p> Last updated on 2023-11-01 | 
+<p> Last updated on 2023-11-04 | 
         
         <a href="https://github.com/UniversityofBrighton/2023-fair-multidimensional-media/edit/main/episodes/virtual-research-environment.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1392,7 +1408,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-retrieving-and-curating-multidimensional-data"><p>Content from <a href="retrieving-and-curating-multidimensional-data.html">Retrieving and Curating Multidimensional Data</a></p>
 <hr>
-<p> Last updated on 2023-11-01 | 
+<p> Last updated on 2023-11-04 | 
         
         <a href="https://github.com/UniversityofBrighton/2023-fair-multidimensional-media/edit/main/episodes/retrieving-and-curating-multidimensional-data.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1464,22 +1480,13 @@ any links that you are not going to use.
 </div>
 </section></section><section id="aio-interoperable-frameworks"><p>Content from <a href="interoperable-frameworks.html">Interoperable Frameworks</a></p>
 <hr>
-<p> Last updated on 2023-11-01 | 
+<p> Last updated on 2023-11-04 | 
         
         <a href="https://github.com/UniversityofBrighton/2023-fair-multidimensional-media/edit/main/episodes/interoperable-frameworks.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
-<figure><img src="fig/AdobeStock_507575662.jpeg" alt="connect blocks" class="figure mx-auto d-block"><figcaption>© ImageFlow from AdobeStock</figcaption></figure><p>A variety of tools are available over the web to bring together
-multidimensional content by deploying storytelling or visualisation
-techniques:</p>
-<ul>
-<li><a href="https://www.exhibit.so/" class="external-link">Exhibit</a></li>
-<li><a href="https://timemapper.okfnlabs.org/" class="external-link">TimeMapper from Open
-Knowledge Foundation Labs</a></li>
-<li><a href="https://storymaps.com/" class="external-link">Meet StoryMaps</a></li>
-</ul>
-<section id="what-is-iiif"><h2 class="section-heading">What is IIIF?<a class="anchor" aria-label="anchor" href="#what-is-iiif"></a>
+<figure><img src="fig/AdobeStock_507575662.jpeg" alt="connect blocks" class="figure mx-auto d-block"><figcaption>© ImageFlow from AdobeStock</figcaption></figure><section id="what-is-iiif"><h2 class="section-heading">What is IIIF?<a class="anchor" aria-label="anchor" href="#what-is-iiif"></a>
 </h2>
 <hr class="half-width">
 <p>Whatever the tool used for developing an application,<br>
@@ -1595,10 +1602,11 @@ quality=color
 </h2>
 <hr class="half-width">
 <p>The <a href="http://iiif.io/api/presentation/2.1/" class="external-link">IIIF Presentation
-AP</a>I enables you to provide metadata about the structure and layout
-of image objects. Image type objects represent things like: - single
-images - groups of ordered images - groups of images that represent
-pages (book, manuscript)</p>
+API</a> enables you to provide a structured layout of multidimensional
+objects and their metadata.</p>
+<p>metadata about the structure and layout of image objects. Image type
+objects represent things like: - single images - groups of ordered
+images - groups of images that represent pages (book, manuscript)</p>
 <p>The Presentation API provides metadata about how these image objects
 can be displayed.</p>
 <div class="section level3">
@@ -1614,6 +1622,15 @@ can be displayed.</p>
 Training</a> &amp;copy IIIF under CC-BY-4.0</p>
 <p>More information: <a href="https://www.slideshare.net/Cogapp/everything-you-ever-wanted-to-know-about-iiif-but-were-too-afraid-to-ask" class="external-link">Everything
 you ever wanted to know about IIIF but were too afraid to ask</a>.</p>
+<p>A variety of tools are available over the web to bring together
+multidimensional content by deploying storytelling or visualisation
+techniques:</p>
+<ul>
+<li><a href="https://www.exhibit.so/" class="external-link">Exhibit</a></li>
+<li><a href="https://timemapper.okfnlabs.org/" class="external-link">TimeMapper from Open
+Knowledge Foundation Labs</a></li>
+<li><a href="https://storymaps.com/" class="external-link">Meet StoryMaps</a></li>
+</ul>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
@@ -1628,7 +1645,7 @@ any links that you are not going to use.
 </ol>
 </div></section><section id="aio-links"><p>Content from <a href="links.html">Links</a></p>
 <hr>
-<p> Last updated on 2023-11-01 | 
+<p> Last updated on 2023-11-04 | 
         
         <a href="https://github.com/UniversityofBrighton/2023-fair-multidimensional-media/edit/main/episodes/links.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1712,8 +1729,8 @@ Group Museum</a></li>
   "url": "https://UniversityofBrighton.github.io/2023-fair-multidimensional-media/aio.html",
   "identifier": "https://UniversityofBrighton.github.io/2023-fair-multidimensional-media/aio.html",
   "dateCreated": "2023-10-20",
-  "dateModified": "2023-11-01",
-  "datePublished": "2023-11-01"
+  "dateModified": "2023-11-04",
+  "datePublished": "2023-11-04"
 }
 
   </script><script>

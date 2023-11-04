@@ -1,46 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 26.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1417.3 1417.3" style="enable-background:new 0 0 1417.3 1417.3;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#7CB929;stroke:#000000;stroke-miterlimit:10;}
 	.st1{fill:none;stroke:#000000;stroke-width:14;stroke-miterlimit:10;}
-	.st2{font-family:'MyriadPro-Regular';}
+	.st2{font-family:'ArialMT';}
 	.st3{font-size:60px;}
 </style>
-<g id="Layer_1">
-	<rect x="149.7" y="124.2" class="st0" width="942" height="942"/>
-	<line class="st1" x1="149.7" y1="124.2" x2="1330.5" y2="124.2"/>
-	<line class="st1" x1="149.7" y1="124.2" x2="149.7" y2="1293"/>
-	<line class="st1" x1="1259.8" y1="193.9" x2="1330.5" y2="123.2"/>
-	<line class="st1" x1="1330.5" y1="129.8" x2="1259.8" y2="59.1"/>
-	<line class="st1" x1="82.3" y1="1228" x2="153" y2="1298.7"/>
-	<line class="st1" x1="146.4" y1="1298.7" x2="217.1" y2="1228"/>
-	<text transform="matrix(1 0 0 1 78.8097 94.4619)" class="st2 st3">(0,0)</text>
-	<text transform="matrix(1 0 0 1 995.6285 95.1214)" class="st2 st3">(1,0)</text>
-	<text transform="matrix(1 0 0 1 999.4683 1148.457)" class="st2 st3">(1,1)</text>
-	<text transform="matrix(1 0 0 1 32.4853 1130.5087)" class="st2 st3">(0,1)</text>
-	<rect x="1180.5" y="531.4" class="st0" width="28.9" height="28.9"/>
-	<rect x="1209.3" y="531.4" class="st0" width="28.9" height="28.9"/>
-	<rect x="1238.2" y="531.4" class="st0" width="28.9" height="28.9"/>
-	<rect x="1267.1" y="531.4" class="st0" width="28.9" height="28.9"/>
-	<rect x="1295.9" y="531.4" class="st0" width="28.9" height="28.9"/>
-	<rect x="1180.5" y="560.3" class="st0" width="28.9" height="28.9"/>
-	<rect x="1209.3" y="560.3" class="st0" width="28.9" height="28.9"/>
-	<rect x="1238.2" y="560.3" class="st0" width="28.9" height="28.9"/>
-	<rect x="1267.1" y="560.3" class="st0" width="28.9" height="28.9"/>
-	<rect x="1295.9" y="560.3" class="st0" width="28.9" height="28.9"/>
-	<rect x="1180.5" y="589.2" class="st0" width="28.9" height="28.9"/>
-	<rect x="1209.3" y="589.2" class="st0" width="28.9" height="28.9"/>
-	<rect x="1238.2" y="589.2" class="st0" width="28.9" height="28.9"/>
-	<rect x="1267.1" y="589.2" class="st0" width="28.9" height="28.9"/>
-	<rect x="1295.9" y="589.2" class="st0" width="28.9" height="28.9"/>
-	<rect x="1180.5" y="618" class="st0" width="28.9" height="28.9"/>
-	<rect x="1209.3" y="618" class="st0" width="28.9" height="28.9"/>
-	<rect x="1238.2" y="618" class="st0" width="28.9" height="28.9"/>
-	<rect x="1267.1" y="618" class="st0" width="28.9" height="28.9"/>
-	<rect x="1295.9" y="618" class="st0" width="28.9" height="28.9"/>
+<g id="Layer_1_00000026125564240628350540000012801584751788387726_">
+	<rect x="193.4" y="351" class="st0" width="942" height="942"/>
+	<line class="st1" x1="193.4" y1="1290.7" x2="1374.2" y2="1290.7"/>
+	<line class="st1" x1="193.4" y1="124.2" x2="193.4" y2="1293"/>
+	<line class="st1" x1="1303.5" y1="1360.4" x2="1374.2" y2="1289.7"/>
+	<line class="st1" x1="1374.2" y1="1296.3" x2="1303.5" y2="1225.6"/>
+	<line class="st1" x1="260.8" y1="202" x2="190.1" y2="131.3"/>
+	<line class="st1" x1="196.7" y1="131.3" x2="126" y2="202"/>
+	<text transform="matrix(1 0 0 1 109.9535 1360.3998)" class="st2 st3">(0,0)</text>
+	<text transform="matrix(1 0 0 1 1077.741 1360.3997)" class="st2 st3">(1,0)</text>
+	<text transform="matrix(1 0 0 1 1074.0814 321.1159)" class="st2 st3">(1,1)</text>
+	<text transform="matrix(1 0 0 1 216.5123 308.516)" class="st2 st3">(0,1)</text>
 </g>
-<g id="Layer_2">
+<g id="Layer_2_00000013178848374398179850000001898392333068780216_">
 </g>
 </svg>
