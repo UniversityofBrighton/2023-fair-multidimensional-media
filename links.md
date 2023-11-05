@@ -5,15 +5,17 @@ exercises: 2
 ---
 
 
-Here is a list of the sites with assets which you can use for your stories:
+Summary of sites with multidimensional assets:
 
 **Images**:
+
 - [Pixabay](https://pixabay.com/)
 - [Adobe Stock](https://stock.adobe.com/)
 - [Shutterstock](https://www.shutterstock.com/)
 - [Flickr](https://www.flickr.com/)
 
 **Videos**:
+
 - [YouTube](https://www.youtube.com)
 - [Vimeo](https://vimeo.com/)
 - [Wikimedia](https://commons.wikimedia.org/wiki/Category:Videos)

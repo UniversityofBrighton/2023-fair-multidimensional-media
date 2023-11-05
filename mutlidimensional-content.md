@@ -408,9 +408,11 @@ repository where you are curating the dataset.
 2. Use the **maximum resolution possible**. It is always possible to reduce the number of pixels, but not to increase them.
 3. **Record basic metadata** about the file,
 including the reference and copyright to the image. 
+
 If you are doing 
 additional research look at data models, such as [Dublin-CORE cross domain set](https://www.dublincore.org/specifications/dublin-core/cross-domain-attribute/),
 which contains useful information to store, including:
+
   - Title
   - Subject
   - Description

@@ -11,11 +11,8 @@ exercises: 2
 ---
 
 
-
-You might already be familiar with websites bringing together a mixture
-of content, such text, images, video or 3D models. 
-
-Delivering/retrieving content over the web provides many advantages:
+Delivering/retrieving multidimensional content over 
+the web provides many advantages:
 
 - Being able to easily access the content regardless of which
 platform they are using, such as PCs, mobiles or a VR headsets.
@@ -24,9 +21,9 @@ to query, retrieve and display content.
 
 
 ## Web Basics: Uniform Resource Locator
-In order to understand how to create stories over the web that 
-link multidimensional data, it is first necessary 
-to learn how data, of any type, is made available over the Internet.
+In order to understand how to provide access to multidimensional data over the web, 
+it is first necessary  to learn how data, of any type, 
+is made available over the Internet.
 
 A webpage is usually written in HTML and other web-languages, 
 such as JavaScript, TypeScript or PHP. This code is 
