@@ -191,28 +191,7 @@ There are resources here to learn more about processes:
 ### Vector Data
 Regardless of the process, the output of these processes, 
 in most cases will produce a **3D model** file which 
-contains **vector** data. This data include:
-
-- Points or vertices described in a 3D space.
-- Information on how the points are connected to form
-shapes such as triangles, which is known as the topology
-or connectivity of the 3D model.
-- Colour or texture (image) information which describe its appearance. 
-
-For example, to describe a 3D cube, the file will contain
-data describing the 6 squares using 
-point coordinates (e.g. (1,0,0)).
-
-![](fig/cube.png){alt='cube vector format'width=60%}
-
-
-In the example below, a squareis described
-using 4 points or *vertices*: (0,0,0), (1,0,0), (1,1,0) and (0,1,0).
-
-
-![](fig/square.svg){alt='square vector format'width=60%}
-
-
+contains **vector** data. 
 
 <!--
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
@@ -235,6 +214,24 @@ depth = 1
 
 ::::::::::::::::::::::::::::::::::::: solution 
 
+To describe a 3D cube, the file will contain
+data describing the 6 squares using 
+point coordinates (e.g. (1,0,0)).
+
+![](fig/cube.png){alt='cube vector format'width=60%}
+
+
+In the example below, a squareis described
+using 4 points or *vertices*: (0,0,0), (1,0,0), (1,1,0) and (0,1,0).
+
+
+![](fig/square.svg){alt='square vector format'width=60%}
+
+:::::::::::::::::::::::::::::::::
+
+
+::::::::::::::::::::::::::::::::::::: solution 
+
 
 :::::::::::::::::::::::::::::::::
 
@@ -253,9 +250,18 @@ on what information to display on the screen. It must decide
 whether a pixel should be drawn or not to represent the 
 information of the 3D-cube you drawn.
 
-:::::::::::::::::::::::::::::::::
+
 ::::::::::::::::::::::::::::::::::::::::::::::::
+
 -->
+This data include:
+
+- Points or vertices described in a 3D space.
+- Information on how the points are connected to form
+shapes such as triangles, which is known as the topology
+or connectivity of the 3D model.
+- Colour or texture (image) information which describe its appearance. 
+
 ### Raster Data
 
 **Rasterisation** is the process 
