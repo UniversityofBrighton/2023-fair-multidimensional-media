@@ -569,20 +569,8 @@ principles and tips for 3D digitisation of cultural heritage</a></li>
 </h3>
 <p>Regardless of the process, the output of these processes, in most
 cases will produce a <strong>3D model</strong> file which contains
-<strong>vector</strong> data. This data include:</p>
-<ul>
-<li>Points or vertices described in a 3D space.</li>
-<li>Information on how the points are connected to form shapes such as
-triangles, which is known as the topology or connectivity of the 3D
-model.</li>
-<li>Colour or texture (image) information which describe its
-appearance.</li>
-</ul>
-<p>For example, to describe a 3D cube, the file will contain data
-describing the 6 squares using point coordinates (e.g. (1,0,0)).</p>
-<figure><img src="../fig/cube.png" style="width:60.0%" alt="cube vector format" class="figure mx-auto d-block"></figure><p>In the example below, a squareis described using 4 points or
-<em>vertices</em>: (0,0,0), (1,0,0), (1,1,0) and (0,1,0).</p>
-<figure><img src="../fig/square.svg" style="width:60.0%" alt="square vector format" class="figure mx-auto d-block"></figure><!--
+<strong>vector</strong> data.</p>
+<!--
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
 This exercise requires having access to blank paper and a square-grid paper.
@@ -600,6 +588,24 @@ height = 1
 width = 1  
 
 depth = 1
+
+::::::::::::::::::::::::::::::::::::: solution 
+
+To describe a 3D cube, the file will contain
+data describing the 6 squares using 
+point coordinates (e.g. (1,0,0)).
+
+![](fig/cube.png){alt='cube vector format'width=60%}
+
+
+In the example below, a squareis described
+using 4 points or *vertices*: (0,0,0), (1,0,0), (1,1,0) and (0,1,0).
+
+
+![](fig/square.svg){alt='square vector format'width=60%}
+
+:::::::::::::::::::::::::::::::::
+
 
 ::::::::::::::::::::::::::::::::::::: solution 
 
@@ -621,9 +627,19 @@ on what information to display on the screen. It must decide
 whether a pixel should be drawn or not to represent the 
 information of the 3D-cube you drawn.
 
-:::::::::::::::::::::::::::::::::
+
 ::::::::::::::::::::::::::::::::::::::::::::::::
+
 -->
+<p>This data include:</p>
+<ul>
+<li>Points or vertices described in a 3D space.</li>
+<li>Information on how the points are connected to form shapes such as
+triangles, which is known as the topology or connectivity of the 3D
+model.</li>
+<li>Colour or texture (image) information which describe its
+appearance.</li>
+</ul>
 </div>
 <div class="section level3">
 <h3 id="raster-data">Raster Data<a class="anchor" aria-label="anchor" href="#raster-data"></a>
@@ -1629,7 +1645,7 @@ quality=gray
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>To create the url, you will need to combine the information according
 to the following url guidance:</p>
@@ -1883,12 +1899,33 @@ curated, the task is to create a story which brings all of this
 together.</p>
 <p>Use the tutorial Exhibit website: <a href="https://exhibit-culturedigitalskills.vercel.app/" class="external-link">https://exhibit-culturedigitalskills.vercel.app/</a></p>
 <p>You will need to register to use the tool.</p>
-<p>Design a story</p>
-<!-- 
+<p>More instructions on creating an Exhibit are here: <a href="https://exhibit-culturedigitalskills.vercel.app/docs" class="external-link">https://exhibit-culturedigitalskills.vercel.app/docs</a></p>
+</section><section id="iiif-content"><h2 class="section-heading">IIIF content<a class="anchor" aria-label="anchor" href="#iiif-content"></a>
+</h2>
+<hr class="half-width">
+<p>You can upload files for images and 3D models, or use existing IIIF
+content with Exhibit.</p>
+<p>If you would like to use a IIIF Manifest, you can use a tools such as
+<a href="https://manifest-editor.digirati.services/" class="external-link">Digirati Manifest
+Editor</a>.</p>
+<p>Create the JSON file using the editor, and upload it alongside the
+media content in D4Science. Then you can provide this JSON url to
+Exhibit.</p>
+<p>To create the JSON, use the following JSON files as examples. Pasting
+the URL links to the in the <a href="https://manifest-editor.digirati.services/" class="external-link">Digirati Manifest
+Editor</a> interface:</p>
+<ul>
+<li>Image: <a href="https://data.d4science.org/shub/E_RjlleHRKM1A3TTUzR0ZiYW1vcjFtNWVyY0JPTzU0djdDNzMrV09LMWgzenF4K0lYc0MzNnZud3BNSHZrK3ZWdQ==" class="external-link">https://data.d4science.org/shub/E_RjlleHRKM1A3TTUzR0ZiYW1vcjFtNWVyY0JPTzU0djdDNzMrV09LMWgzenF4K0lYc0MzNnZud3BNSHZrK3ZWdQ==</a>
+</li>
+<li>Video: <a href="https://data.d4science.org/shub/E_em1ReGc4cE13N2NPYTJrRXUwS3BEbTJqMU5RSEx5cFZ5aXZTRUJ0MDVDdTNsMk5PaUhGOVRmL0FwSThHdmNHNQ==" class="external-link">https://data.d4science.org/shub/E_em1ReGc4cE13N2NPYTJrRXUwS3BEbTJqMU5RSEx5cFZ5aXZTRUJ0MDVDdTNsMk5PaUhGOVRmL0FwSThHdmNHNQ==</a>
+</li>
+<li>3D model: <a href="https://data.d4science.org/shub/E_djREWnFmY1BMS0FJSDh2cTBPQXUwc090NmpldmR3QkNyRWxmN0RvWFZQWWN2TG5OMFM1cWJocWxXNm85dUdYUA==" class="external-link">https://data.d4science.org/shub/E_djREWnFmY1BMS0FJSDh2cTBPQXUwc090NmpldmR3QkNyRWxmN0RvWFZQWWN2TG5OMFM1cWJocWxXNm85dUdYUA==</a>
+</li>
+</ul>
+<figure><img src="../fig/JSONlink.png" alt="editor" class="figure mx-auto d-block"><figcaption>Manifest editor showing JSON link</figcaption></figure><!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
- -->
-</section></section><section id="aio-links"><p>Content from <a href="links.html">Links</a></p>
+ --></section></section><section id="aio-links"><p>Content from <a href="links.html">Links</a></p>
 <hr>
 <p> Last updated on 2023-11-06 | 
         
