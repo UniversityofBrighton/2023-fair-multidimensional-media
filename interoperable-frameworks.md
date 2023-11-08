@@ -71,7 +71,7 @@ Images are requested using URI templates that have the following syntax:
 ``` 
 
 Here is a quick example of how modifying these parameters 
-can change the image that is delivered back to you[^2].
+can change the image that is delivered back to you.
 
 For example, the image below is of dimensions 300 by 200 pixels.
 
@@ -107,6 +107,7 @@ Options for quality include: default, color, gray and bitonal.
 For the following image in an Image API Service:
 
 ![The Milkmaid (c. 1658–1661). Oil on canvas, 45.5 x 41 cm (17.9 x 16.1 in). Rijksmuseum, Amsterdam](fig/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.png)
+
 [https://6fzwqjk2sg.execute-api.eu-west-2.amazonaws.com/latest/iiif/2/Johannes_Vermeer_Het_melkmeisje/](https://6fzwqjk2sg.execute-api.eu-west-2.amazonaws.com/latest/iiif/2/Johannes_Vermeer_Het_melkmeisje/)
 
 Task 1: Write a URL on the browser that has the following parameters:
@@ -217,7 +218,11 @@ various IIIF Organisations, including amongst others:
 Various heritage institutions are making available IIIF manifest in 
 from their collection web access pages.
 
-For example, [Getty](https://www.getty.edu/art/collection) provides access 
+
+
+For example: 
+
+- [Getty](https://www.getty.edu/art/collection) provides access 
 to **IIIF Manifest** when browsing items in their collection. See example: 
 [https://www.getty.edu/art/collection/object/107DZP](https://www.getty.edu/art/collection/object/107DZP)
 contains the [JSON code](https://media.getty.edu/iiif/manifest/0018c029-7963-4a4e-bc7e-401cf2aa9288) which 
@@ -232,6 +237,20 @@ allowfullscreen
   height="500px">
 </iframe>
 [&copy; J. Paul Getty Trust, licensed under CC BY 4.0.](https://uv-v4.netlify.app/uv.html#?manifest=https://media.getty.edu/iiif/manifest/0018c029-7963-4a4e-bc7e-401cf2aa9288&c=0&m=0&cv=0&config=&locales=en-GB:English%20(GB),cy-GB:Cymraeg,fr-FR:Fran%C3%A7ais%20(FR),pl-PL:Polski,sv-SE:Svenska&xywh=-1,-923,6299,5021&r=0)
+
+Another example is the The University of Edinburgh Collections web-accessible [Mahabharata Scroll](https://collections.ed.ac.uk/mahabharata) which showcases
+the advantages of the IIIF Presentation API for artefacts which are 
+not easily accessible or can be handled
+
+
+<iframe src="https://uv-v4.netlify.app/uv.html#?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/mahabharataFinal.json#?c=0&m=0&s=0&cv=0&xywh=-37480%2C0%2C78774%2C49069"
+allowfullscreen
+  loading="lazy"
+  width="100%"
+  height="500px">
+</iframe>
+[&copy; Copyright The University of Edinburgh](https://uv-v4.netlify.app/uv.html#?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/mahabharataFinal.json#?c=0&m=0&s=0&cv=0&xywh=-37480%2C0%2C78774%2C49069)
+
 
 
 ### IIIF Manifest Structure
@@ -280,7 +299,7 @@ See below an example of a IIIF Manifest written in JSON:
   ]
 }
 ```
-From: IIIF Cookbook recepies: https://iiif.io/api/cookbook/recipe/0001-mvm-image/
+From: IIIF Cookbook recipes: https://iiif.io/api/cookbook/recipe/0001-mvm-image/
 
 Note that it contains the following information:
 
