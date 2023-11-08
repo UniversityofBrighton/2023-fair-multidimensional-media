@@ -296,7 +296,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Interoperable Frameworks</h1>
-        <p> Last updated on 2023-11-07 | 
+        <p> Last updated on 2023-11-08 | 
         
         <a href="https://github.com/UniversityofBrighton/2023-fair-multidimensional-media/edit/main/episodes/interoperable-frameworks.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -353,7 +353,7 @@ a static cache (implementation details).</p>
 syntax:</p>
 <pre><code>{scheme}://{server}{/prefix}/{identifier}/{region}/{size}/{rotation}/{quality}.{format}</code></pre>
 <p>Here is a quick example of how modifying these parameters can change
-the image that is delivered back to you[^2].</p>
+the image that is delivered back to you.</p>
 <p>For example, the image below is of dimensions 300 by 200 pixels.</p>
 <figure><img src="../fig/full.png" alt="full" class="figure mx-auto d-block"><figcaption>Example image of 300 x 200 © IIIF</figcaption></figure><p>The image API allows to retrieve an image containing a region of the
 image. This requires using a URL which contains the region as defined
@@ -381,7 +381,8 @@ quality required. All of this information can be expressed as:</p>
 </h3>
 <div class="callout-content">
 <p>For the following image in an Image API Service:</p>
-<p><img src="../fig/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.png" alt="The Milkmaid (c. 1658–1661). Oil on canvas, 45.5 x 41 cm (17.9 x 16.1 in). Rijksmuseum, Amsterdam" class="figure"><a href="https://6fzwqjk2sg.execute-api.eu-west-2.amazonaws.com/latest/iiif/2/Johannes_Vermeer_Het_melkmeisje/" class="external-link">https://6fzwqjk2sg.execute-api.eu-west-2.amazonaws.com/latest/iiif/2/Johannes_Vermeer_Het_melkmeisje/</a></p>
+<figure><img src="../fig/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.png" alt="" class="figure mx-auto d-block"><figcaption>The Milkmaid (c. 1658–1661). Oil on canvas, 45.5 x 41
+cm (17.9 x 16.1 in). Rijksmuseum, Amsterdam</figcaption></figure><p><a href="https://6fzwqjk2sg.execute-api.eu-west-2.amazonaws.com/latest/iiif/2/Johannes_Vermeer_Het_melkmeisje/" class="external-link">https://6fzwqjk2sg.execute-api.eu-west-2.amazonaws.com/latest/iiif/2/Johannes_Vermeer_Het_melkmeisje/</a></p>
 <p>Task 1: Write a URL on the browser that has the following
 parameters:</p>
 <pre><code>region=800,300,500,500
@@ -412,7 +413,7 @@ quality=gray
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>To create the url, you will need to combine the information according
 to the following url guidance:</p>
@@ -495,17 +496,27 @@ including amongst others:</p>
 <h3 id="iiif-manifest-example">IIIF Manifest Example<a class="anchor" aria-label="anchor" href="#iiif-manifest-example"></a></h3>
 <p>Various heritage institutions are making available IIIF manifest in
 from their collection web access pages.</p>
-<p>For example, <a href="https://www.getty.edu/art/collection" class="external-link">Getty</a>
-provides access to <strong>IIIF Manifest</strong> when browsing items in
-their collection. See example: <a href="https://www.getty.edu/art/collection/object/107DZP" class="external-link">https://www.getty.edu/art/collection/object/107DZP</a>
+<p>For example:</p>
+<ul><li>
+<a href="https://www.getty.edu/art/collection" class="external-link">Getty</a> provides
+access to <strong>IIIF Manifest</strong> when browsing items in their
+collection. See example: <a href="https://www.getty.edu/art/collection/object/107DZP" class="external-link">https://www.getty.edu/art/collection/object/107DZP</a>
 contains the <a href="https://media.getty.edu/iiif/manifest/0018c029-7963-4a4e-bc7e-401cf2aa9288" class="external-link">JSON
-code</a> which is web-accessible.</p>
-<p>Note that all of this metadata can be accessed and made available
+code</a> which is web-accessible.</li>
+</ul><p>Note that all of this metadata can be accessed and made available
 through the Viewer:</p>
 <iframe src="https://uv-v4.netlify.app/uv.html#?manifest=https://media.getty.edu/iiif/manifest/0018c029-7963-4a4e-bc7e-401cf2aa9288&amp;c=0&amp;m=0&amp;cv=0&amp;config=&amp;locales=en-GB:English%20(GB),cy-GB:Cymraeg,fr-FR:Fran%C3%A7ais%20(FR),pl-PL:Polski,sv-SE:Svenska&amp;xywh=-1,-923,6299,5021&amp;r=0" allowfullscreen loading="lazy" width="100%" height="500px">
 </iframe>
 <p><a href="https://uv-v4.netlify.app/uv.html#?manifest=https://media.getty.edu/iiif/manifest/0018c029-7963-4a4e-bc7e-401cf2aa9288&amp;c=0&amp;m=0&amp;cv=0&amp;config=&amp;locales=en-GB:English%20(GB),cy-GB:Cymraeg,fr-FR:Fran%C3%A7ais%20(FR),pl-PL:Polski,sv-SE:Svenska&amp;xywh=-1,-923,6299,5021&amp;r=0" class="external-link">©
 J. Paul Getty Trust, licensed under CC BY 4.0.</a></p>
+<p>Another example is the The University of Edinburgh Collections
+web-accessible <a href="https://collections.ed.ac.uk/mahabharata" class="external-link">Mahabharata Scroll</a>
+which showcases the advantages of the IIIF Presentation API for
+artefacts which are not easily accessible or can be handled</p>
+<iframe src="https://uv-v4.netlify.app/uv.html#?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/mahabharataFinal.json#?c=0&amp;m=0&amp;s=0&amp;cv=0&amp;xywh=-37480%2C0%2C78774%2C49069" allowfullscreen loading="lazy" width="100%" height="500px">
+</iframe>
+<p><a href="https://uv-v4.netlify.app/uv.html#?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/mahabharataFinal.json#?c=0&amp;m=0&amp;s=0&amp;cv=0&amp;xywh=-37480%2C0%2C78774%2C49069" class="external-link">©
+Copyright The University of Edinburgh</a></p>
 </div>
 <div class="section level3">
 <h3 id="iiif-manifest-structure">IIIF Manifest Structure<a class="anchor" aria-label="anchor" href="#iiif-manifest-structure"></a></h3>
@@ -554,7 +565,7 @@ J. Paul Getty Trust, licensed under CC BY 4.0.</a></p>
 <span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a>  <span class="ot">]</span></span>
 <span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre>
 </div>
-<p>From: IIIF Cookbook recepies: <a href="https://iiif.io/api/cookbook/recipe/0001-mvm-image/" class="external-link uri">https://iiif.io/api/cookbook/recipe/0001-mvm-image/</a></p>
+<p>From: IIIF Cookbook recipes: <a href="https://iiif.io/api/cookbook/recipe/0001-mvm-image/" class="external-link uri">https://iiif.io/api/cookbook/recipe/0001-mvm-image/</a></p>
 <p>Note that it contains the following information:</p>
 <ul><li>
 <strong>Context</strong>: Tells how to interpret the
@@ -658,7 +669,7 @@ any links that you are not going to use.
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
         <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.14.0" class="external-link">sandpaper (0.14.0)</a>,
         <a href="https://github.com/carpentries/pegboard/tree/0.7.1" class="external-link">pegboard (0.7.1)</a>,
-      and <a href="https://github.com/carpentries/varnish/tree/0.3.1" class="external-link">varnish (0.3.1)</a>.</p>
+      and <a href="https://github.com/carpentries/varnish/tree/0.3.2" class="external-link">varnish (0.3.2)</a>.</p>
 			</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">
@@ -679,8 +690,8 @@ any links that you are not going to use.
   "url": "https://UniversityofBrighton.github.io/2023-fair-multidimensional-media/instructor/interoperable-frameworks.html",
   "identifier": "https://UniversityofBrighton.github.io/2023-fair-multidimensional-media/instructor/interoperable-frameworks.html",
   "dateCreated": "2023-10-20",
-  "dateModified": "2023-11-07",
-  "datePublished": "2023-11-07"
+  "dateModified": "2023-11-08",
+  "datePublished": "2023-11-08"
 }
 
   </script><script>
