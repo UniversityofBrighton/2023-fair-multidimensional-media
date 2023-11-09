@@ -56,7 +56,7 @@ only available via an institutional platform or in a particular language.
 > "The data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing." [https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)
 
 - Consider how other users will bring together content
-from various datasets, for instance to create a new project.
+from various data sets, for instance to create a new project.
 - For visual media, including images, video and 3D, [IIIF](https://github.com/IIIF/awesome-iiif) (generally pronounced "triple-eye-eff") supports its interoperability of across websites and institutions.
 - This framework allows to provide access and shared
 link to a file, as well as its (meta)data .

@@ -4,18 +4,18 @@ teaching: 2.5
 exercises: 2
 ---
 
-We will curate a dataset of multidimensional data
+We will curate a data set of multidimensional data
 to practice what we learnt.
 
 
 We will make use of the VRE 
-to store, collaborate and provide access to the dataset.
+to store, collaborate and provide access to the data set.
 
 :::::::::: challenge
 
 ## Challenge: Curating dataset
 In teams of 2-3 choose a theme to retrieve and
-curate the dataset. 
+curate the data set. 
 
 The theme can be either a project you are developing,
 or you can choose one 
@@ -27,7 +27,7 @@ you can continue working on this.
 
 Search for a minimum of 5-6 images, a video and a 3D image/model.
 Downloaded them and upload to a share folder in the VRE.
-Take care of your resolution, filenames, and recording the metadata
+Take care of your resolution, file names, and recording the metadata
 of the files.
 
 :::::::::: 
