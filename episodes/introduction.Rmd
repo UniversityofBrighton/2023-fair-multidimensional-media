@@ -32,9 +32,9 @@ available over the web which might serve various educational, research,
 as well as storytelling and audience engagement processes.
 
 The lesson focuses on stories in the fields of visual and 
-material culture within Higher Education, Galleries, Libraries, A
-rchives, Museums (GLAMs), as well as the creative industries. Hence, it
-containes many examples and websites in this area. Howver,
+material culture within Higher Education, Galleries, Libraries, Archives, 
+Museums (GLAMs), as well as the creative industries. Hence, it
+contains many examples and websites in this area. However,
 many concepts are cross-disciplinary and can be applied
 to other areas as well as sectors.
 

@@ -36,7 +36,7 @@ such as [https://www.brighton.ac.uk](http://www.brighton.ac.uk),
 [https://www.europeana.eu/en](https://www.europeana.eu/en). 
 
 ## URL Paths
-Many webservers make use of the full URL path to send information
+Many web servers make use of the full URL path to send information
 to the server. A URL path usually specifies the location of the file 
 or resource that the user wants to access in the server. 
 
@@ -58,7 +58,7 @@ See these examples:
 
 This is a very simple browser exercise, but it serves to get
 the student thinking on things which are added to a URL for
-processing by the webserver.
+processing by the web server.
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
@@ -74,7 +74,7 @@ What is the difference of navigating to these two different URLs
 :::::::::::::::::::::::: solution 
 
 You will notice that the URL that contains the **#** symbol in the URL
-takes you to the sepecific section with the 17 SDG goals.
+takes you to the specific section with the 17 SDG goals.
 :::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
@@ -183,7 +183,7 @@ identify written texts.
 Currently there are PIDs to identify:
 
 - Contributor, inc. authors and researchers
-- Data and Software, inc. datasets, tables, figures, videos, code, 3D models
+- Data and Software, inc. data sets, tables, figures, videos, code, 3D models
 - Publications, inc. books, articles, white papers, chapters
 - Projects, inc. grants given by funders
 - Organization, inc. institutions, funders, corporations, government agencies

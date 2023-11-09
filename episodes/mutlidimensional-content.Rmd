@@ -392,7 +392,7 @@ the various platforms for
 research, education, entertainment and storytelling among
 other applications. 
 
-Some aggregator websites offer access to a variety of visual 
+Some aggregation websites offer access to a variety of visual 
 content, including:
 
 - [Europeana Platform](https://www.europeana.eu/en)
@@ -410,7 +410,7 @@ Some general advice when looking for content
 for your projects include:
 
 1. **Download the multimedia file** where possible and store locally or on the 
-repository where you are curating the dataset. 
+repository where you are curating the data set. 
 2. Use the **maximum resolution possible**. It is always possible to reduce the number of pixels, but not to increase them.
 3. **Record basic metadata** about the file,
 including the reference and copyright to the image. 

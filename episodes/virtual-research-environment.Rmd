@@ -61,7 +61,7 @@ Either click on the link or copy/paste to your browser the address: [https://ser
 
 Login by 
 using your existing login credentials, e.g. 
-the one of your institution or your google account.
+the one of your institution or your Google account.
 
 :::::::::: challenge
 
@@ -98,7 +98,7 @@ The VRE offers the following capabilities:
 - **Mailing System and Forum**: enable members to community
 one-to-one or as a community.
 - **Data Analytics**: enable members to access
-cloud computing facilities to colaborate
+cloud computing facilities to collaborate
 in developing and applying data-algorithms.
 
 To test some of these access in the main interface, the
@@ -137,7 +137,7 @@ person in the group.
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-The functionalities that the workspace provides include:
+The functionality that the workspace provides include:
 
 - Preview the file
 - Get basic information - note that vary basic metadata, such as name,
@@ -145,7 +145,7 @@ ID, and type are supported. There is a description field which allows
 for recording additional metadata.
 - Version number, as the owner of a file can replace the file keeping
 the older versions to facilitate version control.
-- Shearable link to the file
+- Searchable link to the file
 - History of operations performed by users to the file.
 - Move to another folder.
 - Make a copy to another folder.
@@ -176,7 +176,7 @@ of a special language for formatting text known as [markup](https://jupyter-note
 
 The environment also support basic editing of text-data 
 and the implementation of 
-data processing algorithms using high-performance backend computers.
+data processing algorithms using high-performance back end computers.
 
 :::::::::: challenge
 
