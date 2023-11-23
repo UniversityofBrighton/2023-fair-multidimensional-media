@@ -30,11 +30,17 @@ Summary of sites with multidimensional assets:
 - [Open Heritage 3D](https://openheritage3d.org/ )
 - [Visual Media Service](https://visual.ariadne-infrastructure.eu/)
 
+**Other datasets**:
+
+Publication Journals:
+
+- [Journal of Open Humanities Data](https://openhumanitiesdata.metajnl.com/)
+- [Journal of Digital History](https://journalofdigitalhistory.org/)
+
 Others:
 
 - [Europeana Platform](https://www.europeana.eu/en)
 - [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Images)
-- [Journal of Digital History Journal](https://journalofdigitalhistory.org/)
 - [Brighton and Hove Museums](https://collections.brightonmuseums.org.uk/)
 - [Victoria and Albert Museum](https://www.vam.ac.uk/collections?type=featured)
 - [Science Group Museum](https://collection.sciencemuseumgroup.org.uk/)
