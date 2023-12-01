@@ -2,5 +2,5 @@
 title: Instructor Notes
 ---
 
-The lesson relies mostly on web access, and one excercise where paper and 
+The lesson relies mostly on web access, and one exercise where paper and 
 pen is required.
