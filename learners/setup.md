@@ -34,5 +34,3 @@ The tutorial is built with [The Carpentries Workbench](https://carpentries.githu
 
 ![](../episodes/fig/colorlogo_centre.png){width=50% alt="logo"}
 
-[![DOI](https://zenodo.org/badge/709624868.svg)](https://zenodo.org/doi/10.5281/zenodo.10212737)
-
