@@ -87,8 +87,8 @@ using a URL which contains the region as defined by:
 
 ![Example image of 300 x 200 &copy; IIIF](fig/region_px.png){alt="region"}
 
-It is also possible to define the size (e.g.90,), rotation and quality required.
-All of this information can be expressed as:
+It is also possible to define the size (e.g. 90), rotation and quality required.
+All this information can be expressed as:
 
 ```
 region=125,15,120,140 size=90, rotation=0 quality=color
@@ -228,7 +228,7 @@ to **IIIF Manifest** when browsing items in their collection. See example:
 contains the [JSON code](https://media.getty.edu/iiif/manifest/0018c029-7963-4a4e-bc7e-401cf2aa9288) which 
 is web-accessible.
 
-Note that all of this metadata can be accessed and made available through the Viewer:
+Note that all these metadata can be accessed and made available through the Viewer:
 
 <iframe src="https://uv-v4.netlify.app/uv.html#?manifest=https://media.getty.edu/iiif/manifest/0018c029-7963-4a4e-bc7e-401cf2aa9288&c=0&m=0&cv=0&config=&locales=en-GB:English (GB),cy-GB:Cymraeg,fr-FR:Français (FR),pl-PL:Polski,sv-SE:Svenska&xywh=-1,-923,6299,5021&r=0"
 allowfullscreen
@@ -240,7 +240,7 @@ allowfullscreen
 
 Another example is the The University of Edinburgh Collections web-accessible [Mahabharata Scroll](https://collections.ed.ac.uk/mahabharata) which showcases
 the advantages of the IIIF Presentation API for artefacts which are 
-not easily accessible or can be handled
+not easily accessible or cannot be handled.
 
 
 <iframe src="https://uv-v4.netlify.app/uv.html#?manifest=https://librarylabs.ed.ac.uk/iiif/manifest/mahabharataFinal.json#?c=0&m=0&s=0&cv=0&xywh=-37480%2C0%2C78774%2C49069"

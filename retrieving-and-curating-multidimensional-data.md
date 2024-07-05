@@ -19,7 +19,7 @@ curate the data set.
 
 The theme can be either a project you are developing,
 or you can choose one 
-from the ones describe below.
+from the ones described below.
 
 If you have selected a theme in previous 
 sessions, e.g. [previous tutorial](https://universityofbrighton.github.io/2023-exhibition-design),
