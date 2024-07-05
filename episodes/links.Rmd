@@ -37,7 +37,7 @@ Publication Journals:
 - [Journal of Open Humanities Data](https://openhumanitiesdata.metajnl.com/)
 - [Journal of Digital History](https://journalofdigitalhistory.org/)
 
-Others:
+Other:
 
 - [Europeana Platform](https://www.europeana.eu/en)
 - [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Images)

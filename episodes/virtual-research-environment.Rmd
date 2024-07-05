@@ -13,12 +13,11 @@ effort you have done to curate the data.
 There are some web-platforms which can easily allow this, such as
 document management and storage system, e.g. 
 
-- [Microsoft Sharepoint](https://microsoft.sharepoint.com), 
-- [Google Drive](https://www.google.com), and 
-- [Dropbox](https://www.dropbox.com/). 
+- [Microsoft Sharepoint](https://microsoft.sharepoint.com)
+- [Google Drive](https://www.google.com)
+- [Dropbox](https://www.dropbox.com/)
 
-All of this allow
-for sharing capabilities with people within and beyond your organisations.
+All these enable sharing capabilities with people within and beyond your organisations.
 
 Other systems such as Virtual Research Environments are also available for
 sharing data with the same community of practice. 
@@ -139,13 +138,13 @@ person in the group.
 
 The functionality that the workspace provides include:
 
-- Preview the file
+- Preview the file.
 - Get basic information - note that vary basic metadata, such as name,
 ID, and type are supported. There is a description field which allows
 for recording additional metadata.
 - Version number, as the owner of a file can replace the file keeping
 the older versions to facilitate version control.
-- Searchable link to the file
+- Searchable link to the file.
 - History of operations performed by users to the file.
 - Move to another folder.
 - Make a copy to another folder.

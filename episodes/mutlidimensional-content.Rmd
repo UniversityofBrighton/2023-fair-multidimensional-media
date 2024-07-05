@@ -93,7 +93,7 @@ across websites given an input image. See examples:
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Challenge 1: Search for images
+## Challenge: Search for images
 
 Save the image below and navigate in your browser to [https://www.google.com/](https://www.google.com/).
 Using the camera image on the search bar, search for the image.
@@ -108,7 +108,7 @@ https://www.europeana.eu/item/794/ark__12148_bpt6k9798997w](fig/Europeana.eu-794
 Finally, images are commonly stored using formats such such as:
 
 - *JPEG*, short for Joint Photographic Experts Group, and *PNG*
-*Portable Network Graphics* formats compress
+Portable Network Graphics formats compress
 pixel information making the files size smaller.
 - *TIFF*, short for Tag Image File Format, 
 stores non-compressed information, making the file sizes larger.

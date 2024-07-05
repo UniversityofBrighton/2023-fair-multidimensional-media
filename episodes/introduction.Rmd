@@ -27,11 +27,11 @@ as well as more structured information.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-The lesson aims to support better understanding of multidimensional media 
+The resource aims to support better understanding of multidimensional media 
 available over the web which might serve various educational, research,
 as well as storytelling and audience engagement processes.
 
-The lesson focuses on stories in the fields of visual and 
+The resource focuses on stories in the fields of visual and 
 material culture within Higher Education, Galleries, Libraries, Archives, 
 Museums (GLAMs), as well as the creative industries. Hence, it
 contains many examples and websites in this area. However,

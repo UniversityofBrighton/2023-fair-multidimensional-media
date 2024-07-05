@@ -12,7 +12,7 @@ FIXME: place any data you want learners to use in `episodes/data` and then use
        a relative link ( [data zip file](data/lesson-data.zip) ) to provide a
        link to it, replacing the example.com link.
 -->
-## Software Setup
+
 
 ::::::::::::::::::::::::::::::::::::::: discussion
 
@@ -24,7 +24,7 @@ Access to the [Culture Digital Skills Virtual Research Environment D4Science](ht
 required.
 
 If you have not registered, it would be useful to do this before
-the lesson. For more information, see [instructions](https://universityofbrighton.github.io/2023-fair-multidimensional-media/virtual-research-environment.html#virtual-research-environments-vre)
+the lesson. For more information, see [instructions](https://universityofbrighton.github.io/2023-fair-multidimensional-media/virtual-research-environment.html#virtual-research-environments-vre).
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::
 

@@ -64,9 +64,9 @@ processing by the web server.
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Challenge 1: Try this examples
+## Challenge: Try this example
 
-What is the difference of navigating to these two different URLs
+What is the difference of navigating to these two different URLs?
 
 - [https://sdgs.un.org/](https://sdgs.un.org/)
 - [https://sdgs.un.org/#goal_section](https://sdgs.un.org/#goal_section)
@@ -123,7 +123,7 @@ More information about parameters for search: [https://www.google.com/support/en
 
 ## Challenge: Use a query in a URL
 
-Try searching a word in the [Europeana homepage][Europeana]
+Try searching a word in the [Europeana homepage](https://www.europeana.eu/en).
 
 For example, search for the word: 'modernism'
 
@@ -135,7 +135,7 @@ Try using the query text in the Europeana URL to search for the word modernism:
 
 Now, try changing directly the search term to the URL to a phrase.
 
-Go back to the [Europeana homepage][Europeana].
+Go back to the [Europeana homepage](https://www.europeana.eu/en).
 
 
 :::::::::::::::::::::::::::::::::
@@ -194,8 +194,8 @@ Currently there are PIDs to identify:
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- URLs can be a simple means to find a website
-- URLs can also include additional information which allows a server to change how the webpage is 'served'
+- URLs can be a simple means to find a website.
+- URLs can also include additional information which allows a server to change how the webpage is 'served'.
 - Anchors allow to easily jump to part of the page.
 - URLs also provide the means to use a website as a database which can be queried via the URL path.
 
