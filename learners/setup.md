@@ -4,8 +4,7 @@ title: Setup
 
 
 ## Data Sets
-Data will be produced during the workshop,
-so you will mostly need access to a web broswer and some space in your
+Please make use of your own data, data downloaded over the web or data produced via other training resources. For this resource you will need access to a web browser and some space in your
 computer to store the data.
 <!--
 FIXME: place any data you want learners to use in `episodes/data` and then use
