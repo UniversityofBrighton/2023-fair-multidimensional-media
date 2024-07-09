@@ -1,12 +1,14 @@
 To reference information about this module, please cite:
 
 Karina Rodriguez Echavarria. "FAIR Multidimensional Data".
-2023.
+2023. https://doi.org/10.5281/zenodo.10212738
 
 @online{rodriguez-linked-multi-23,
   author      = {Karina {Rodriguez Echavarria},
   title       = {FAIR Multidimensional Data},
   year        = {2023},
+url = {https://doi.org/10.5281/zenodo.10212738},
+doi = {10.5281/zenodo.10212738},
 }
 
 Title: FAIR Multidimensional Data
