@@ -108,7 +108,7 @@ For the following image in an Image API Service:
 
 ![The Milkmaid (c. 1658–1661). Oil on canvas, 45.5 x 41 cm (17.9 x 16.1 in). Rijksmuseum, Amsterdam](fig/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.png)
 
-[https://6fzwqjk2sg.execute-api.eu-west-2.amazonaws.com/latest/iiif/2/Johannes_Vermeer_Het_melkmeisje/](https://6fzwqjk2sg.execute-api.eu-west-2.amazonaws.com/latest/iiif/2/Johannes_Vermeer_Het_melkmeisje/)
+[https://kuybs3qucnn2f6djohgb2cscbm0bppme.lambda-url.eu-west-2.on.aws/iiif/2/Johannes_Vermeer_Het_melkmeisje/](https://kuybs3qucnn2f6djohgb2cscbm0bppme.lambda-url.eu-west-2.on.aws/iiif/2/Johannes_Vermeer_Het_melkmeisje/)
 
 Task 1: Write a URL on the browser that has the following parameters:
 
@@ -159,7 +159,7 @@ Using the following information:
 - **quality**: color
 - **format**: .jpg
 
-[https://6fzwqjk2sg.execute-api.eu-west-2.amazonaws.com/latest/iiif/2/Johannes_Vermeer_Het_melkmeisje/800,300,500,500/200,/90/color.jpg](https://6fzwqjk2sg.execute-api.eu-west-2.amazonaws.com/latest/iiif/2/Johannes_Vermeer_Het_melkmeisje/800,300,500,500/200,/90/color.jpg)
+[https://kuybs3qucnn2f6djohgb2cscbm0bppme.lambda-url.eu-west-2.on.aws/iiif/2/Johannes_Vermeer_Het_melkmeisje/800,300,500,500/200,/90/color.jpg](https://kuybs3qucnn2f6djohgb2cscbm0bppme.lambda-url.eu-west-2.on.aws/iiif/2/Johannes_Vermeer_Het_melkmeisje/800,300,500,500/200,/90/color.jpg)
 
 - **scheme**: https
 - **server**: 6fzwqjk2sg.execute-api.eu-west-2.amazonaws.com/
@@ -171,7 +171,7 @@ Using the following information:
 - **quality**: gray
 - **format**: .jpg
 
-[https://6fzwqjk2sg.execute-api.eu-west-2.amazonaws.com/latest/iiif/2/Johannes_Vermeer_Het_melkmeisje/500,1000,400,300/max/0/gray.jpg](https://6fzwqjk2sg.execute-api.eu-west-2.amazonaws.com/latest/iiif/2/Johannes_Vermeer_Het_melkmeisje/500,1000,400,300/max/0/gray.jpg)
+[https://kuybs3qucnn2f6djohgb2cscbm0bppme.lambda-url.eu-west-2.on.aws/iiif/2/Johannes_Vermeer_Het_melkmeisje/500,1000,400,300/max/0/gray.jpg](https://kuybs3qucnn2f6djohgb2cscbm0bppme.lambda-url.eu-west-2.on.aws/iiif/2/Johannes_Vermeer_Het_melkmeisje/500,1000,400,300/max/0/gray.jpg)
 
 
 :::::
