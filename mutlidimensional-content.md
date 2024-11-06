@@ -1,7 +1,7 @@
 ---
 title: 'Types of Multidimensional Media'
 teaching: 10
-exercises: 2
+exercises: 200
 ---
 
 **Multidimensional** media is a term which 
